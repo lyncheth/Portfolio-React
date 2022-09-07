@@ -1,0 +1,77 @@
+.projects-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #171717;
+}
+.projects-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: center;
+  justify-content: flex-start;
+}
+.projects-image {
+  top: 0px;
+  left: var(--dl-space-space-sixunits);
+  width: 50 %;
+  position: absolute;
+  object-fit: cover;
+}
+.projects-container2 {
+  top: 18px;
+  flex: 0 0 auto;
+  right: var(--dl-space-space-sixunits);
+  width: 30%;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.projects-introduction {
+  color: #ffffff;
+  font-size: 24px;
+  align-self: center;
+  font-style: normal;
+  font-family: Epilogue;
+  font-weight: 300;
+  margin-right: 32px;
+}
+.projects-projects {
+  color: rgb(187, 187, 187);
+  font-size: 24px;
+  align-self: center;
+  font-style: normal;
+  font-family: Epilogue;
+  font-weight: 300;
+  margin-right: 32px;
+}
+.projects-about {
+  color: rgb(187, 187, 187);
+  font-size: 24px;
+  align-self: center;
+  font-style: normal;
+  font-family: Epilogue;
+  font-weight: 300;
+  margin-right: 32px;
+}
+.projects-contact {
+  color: rgb(187, 187, 187);
+  font-size: 24px;
+  align-self: center;
+  font-style: normal;
+  font-family: Epilogue;
+  font-weight: 300;
+  margin-right: 32px;
+}
+.projects-text {
+  color: #fffafa;
+  font-size: 120px;
+}
