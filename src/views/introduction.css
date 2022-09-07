@@ -242,8 +242,12 @@
   height: 32px;
   margin-top: var(--dl-space-space-halfunit);
   object-fit: cover;
+  transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-halfunit);
+}
+.introduction-image2:hover {
+  transform: scale(1.1);
 }
 .introduction-image3 {
   width: 100%;
@@ -270,6 +274,7 @@
   flex: 0 0 auto;
   width: 25%;
   display: flex;
+  position: relative;
   align-items: center;
   margin-right: var(--dl-space-space-fiveunits);
   flex-direction: column;
@@ -282,7 +287,7 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .introduction-image4:hover {
-  width: 110%;
+  transform: scale(1.1);
 }
 .introduction-text12 {
   color: var(--dl-color-gray-500);
@@ -305,14 +310,20 @@
   flex: 0 0 auto;
   width: 25%;
   display: flex;
+  position: relative;
   align-items: center;
+  margin-right: var(--dl-space-space-fiveunits);
   flex-direction: column;
   justify-content: center;
 }
 .introduction-image5 {
   width: 100%;
   object-fit: cover;
+  transition: 0.3s;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.introduction-image5:hover {
+  transform: scale(1.1);
 }
 .introduction-text14 {
   color: var(--dl-color-gray-500);
@@ -330,6 +341,11 @@
   font-style: normal;
   font-family: Epilogue;
   font-weight: 500;
+}
+@media(max-width: 1200px) {
+  .introduction-hero {
+    flex-direction: column;
+  }
 }
 @media(max-width: 991px) {
   .introduction-hero {

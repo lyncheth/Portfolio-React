@@ -129,8 +129,8 @@ const Introduction = (props) => {
         <div className="introduction-projects-with-names">
           <div className="introduction-project">
             <img
-              src="/playground_assets/thumbnail.svg"
               alt="image"
+              src="/playground_assets/thumbnail.svg"
               className="introduction-image4"
             />
             <h1 className="introduction-text12">Real Estate Application</h1>
@@ -138,8 +138,8 @@ const Introduction = (props) => {
           </div>
           <div className="introduction-project1">
             <img
-              src="/playground_assets/thumbnail.svg"
               alt="image"
+              src="/playground_assets/thumbnail.svg"
               className="introduction-image5"
             />
             <h1 className="introduction-text14">Real Estate Application</h1>
