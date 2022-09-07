@@ -125,6 +125,28 @@ const Introduction = (props) => {
           className="introduction-image3"
         />
       </div>
+      <div className="introduction-projects">
+        <div className="introduction-projects-with-names">
+          <div className="introduction-project">
+            <img
+              src="/playground_assets/thumbnail.svg"
+              alt="image"
+              className="introduction-image4"
+            />
+            <h1 className="introduction-text12">Real Estate Application</h1>
+            <h1 className="introduction-text13">Glive</h1>
+          </div>
+          <div className="introduction-project1">
+            <img
+              src="/playground_assets/thumbnail.svg"
+              alt="image"
+              className="introduction-image5"
+            />
+            <h1 className="introduction-text14">Real Estate Application</h1>
+            <h1 className="introduction-text15">Glive</h1>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
