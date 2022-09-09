@@ -125,6 +125,21 @@ const Introduction = (props) => {
           className="introduction-image3"
         />
       </div>
+      <div className="introduction-divider">
+        <h1 className="introduction-text12">PROJECTS</h1>
+        <div className="introduction-line"></div>
+      </div>
+      <div className="introduction-container12">
+        <span className="introduction-text13">
+          <span>
+            Check out some of my designs that I have done or am working right
+            now. Please note that some 
+          </span>
+          <br></br>
+          <span>of the designs are under work.</span>
+          <br></br>
+        </span>
+      </div>
       <div className="introduction-projects">
         <div className="introduction-projects-with-names">
           <div className="introduction-project">
@@ -133,18 +148,87 @@ const Introduction = (props) => {
               src="/playground_assets/thumbnail.svg"
               className="introduction-image4"
             />
-            <h1 className="introduction-text12">Real Estate Application</h1>
-            <h1 className="introduction-text13">Glive</h1>
+            <h1 className="introduction-text18">Real Estate Application</h1>
+            <h1 className="introduction-text19">Glive</h1>
           </div>
           <div className="introduction-project1">
             <img
               alt="image"
-              src="/playground_assets/thumbnail.svg"
+              src="/playground_assets/untitled-1-400w.png"
               className="introduction-image5"
             />
-            <h1 className="introduction-text14">Real Estate Application</h1>
-            <h1 className="introduction-text15">Glive</h1>
+            <h1 className="introduction-text20">Workout Application</h1>
+            <h1 className="introduction-text21">Praction</h1>
           </div>
+        </div>
+      </div>
+      <div className="introduction-about-divider">
+        <h1 className="introduction-text22">ABOUT</h1>
+        <div className="introduction-line1"></div>
+      </div>
+      <div className="introduction-about-me">
+        <div className="introduction-text23">
+          <h1 className="introduction-text24">WHO AM I</h1>
+          <span className="introduction-text25">
+            <span>
+              My name is Amar Aličič. I am 26 years old, I live in Zenica,
+              Bosnia and Herzegovina, and I am 
+            </span>
+            <span>self-taught Graphics and UI/UX Designer.</span>
+            <br className="introduction-text28"></br>
+            <br className="introduction-text29"></br>
+            <span>
+              I have multiple years of experience working with many designing
+              and 3D modeling tools. 
+            </span>
+            <br></br>
+            <br></br>
+            <span>
+              My current focus is on UI/UX Design and I am working as an Intern
+              at Commercecare.ai where I am mainly working on on many marketing
+              graphics. I also work on one of their products called Rokpay.ba
+            </span>
+            <br className="introduction-text34"></br>
+            <br className="introduction-text35"></br>
+            <span>
+              UI/UX Design started for me as a hobby and it turned to passion.
+              Now I am working on perfecting those skills, and learning more
+              each day in my internship .
+            </span>
+            <br></br>
+            <span>
+              Also I have a decent skill of understanding of HTML, CSS, and
+              JavaScipt.
+            </span>
+            <span className="introduction-text39"> </span>
+            <br className="introduction-text40"></br>
+            <br className="introduction-text41"></br>
+            <br className="introduction-text42"></br>
+            <br></br>
+            <br className="introduction-text44"></br>
+            <br></br>
+          </span>
+        </div>
+        <div className="introduction-avatar">
+          <img
+            alt="image"
+            src="/playground_assets/avatar-500h.png"
+            className="introduction-image6"
+          />
+        </div>
+      </div>
+      <div className="introduction-contact-divider">
+        <h1 className="introduction-text46">CONTACT</h1>
+        <div className="introduction-line2"></div>
+      </div>
+      <div className="introduction-contact">
+        <div className="introduction-form">
+          <label className="introduction-text47">Full Name</label>
+          <input
+            type="text"
+            placeholder="placeholder"
+            className="introduction-textinput input"
+          />
         </div>
       </div>
     </div>
