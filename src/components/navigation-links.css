@@ -10,7 +10,7 @@
   font-style: normal;
   transition: 0.3s;
   font-family: Epilogue;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.15;
   border-color: #999999;
   border-width: 1px;
@@ -29,7 +29,7 @@
   font-size: 16px;
   font-style: normal;
   font-family: Epilogue;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.15;
   margin-left: var(--dl-space-space-fourunits);
   text-transform: none;
@@ -40,7 +40,7 @@
   font-size: 16px;
   font-style: normal;
   font-family: Epilogue;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.15;
   margin-left: var(--dl-space-space-fourunits);
   text-transform: none;
@@ -51,7 +51,7 @@
   font-size: 16px;
   font-style: normal;
   font-family: Epilogue;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.15;
   margin-left: var(--dl-space-space-fourunits);
   text-transform: none;

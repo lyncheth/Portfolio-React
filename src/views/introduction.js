@@ -46,7 +46,7 @@ const Introduction = (props) => {
               <img
                 alt="image"
                 src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                className="introduction-image1"
+                className="introduction-image01"
               />
               <div
                 data-type="CloseMobileMenu"
@@ -123,14 +123,14 @@ const Introduction = (props) => {
             <img
               alt="image"
               src="/playground_assets/arrow.svg"
-              className="introduction-image2"
+              className="introduction-image02"
             />
           </div>
         </div>
         <img
           alt="image"
           src="/playground_assets/hero-base-dark-1500w.png"
-          className="introduction-image3"
+          className="introduction-image03"
         />
       </div>
       <div className="introduction-divider">
@@ -154,7 +154,7 @@ const Introduction = (props) => {
             <img
               alt="image"
               src="/playground_assets/thumbnail.svg"
-              className="introduction-image4"
+              className="introduction-image04"
             />
             <h1 className="introduction-text18">Real Estate Application</h1>
             <h1 className="introduction-text19">Glive</h1>
@@ -163,7 +163,7 @@ const Introduction = (props) => {
             <img
               alt="image"
               src="/playground_assets/untitled-1-400w.png"
-              className="introduction-image5"
+              className="introduction-image05"
             />
             <h1 className="introduction-text20">Workout Application</h1>
             <h1 className="introduction-text21">Praction</h1>
@@ -216,29 +216,52 @@ const Introduction = (props) => {
             <br className="introduction-text44"></br>
             <br></br>
           </span>
+          <h1 className="introduction-text46">TOOLS I USE</h1>
         </div>
         <div className="introduction-avatar">
           <img
             alt="image"
             src="/playground_assets/avatar-500h.png"
-            className="introduction-image6"
+            className="introduction-image06"
           />
         </div>
+      </div>
+      <div className="introduction-tools">
+        <img
+          src="/playground_assets/icons8-figma.svg"
+          alt="image"
+          className="introduction-image07"
+        />
+        <img
+          src="/playground_assets/icons8-sketch.svg"
+          alt="image"
+          className="introduction-image08"
+        />
+        <img
+          src="/playground_assets/icons8-adobe-illustrator%20%5B1%5D.svg"
+          alt="image"
+          className="introduction-image09"
+        />
+        <img
+          src="/playground_assets/icons8-adobe-photoshop.svg"
+          alt="image"
+          className="introduction-image10"
+        />
       </div>
       <div className="introduction-contact-divider">
         <h1 className="introduction-heading">CONTACT</h1>
         <div className="introduction-line2"></div>
       </div>
       <div className="introduction-contact">
-        <div className="introduction-text46">
-          <h1 className="introduction-text47">
-            <span className="introduction-text48">
+        <div className="introduction-text47">
+          <h1 className="introduction-text48">
+            <span className="introduction-text49">
               Do not hesitate to contact me through the form here or by direct
               email
             </span>
-            <br className="introduction-text49"></br>
-            <span className="introduction-text50"> on</span>
-            <span className="introduction-text51">
+            <br className="introduction-text50"></br>
+            <span className="introduction-text51"> on</span>
+            <span className="introduction-text52">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -253,22 +276,22 @@ const Introduction = (props) => {
             >
               amar@amaralicic.com
             </a>
-            <span className="introduction-text52">
+            <span className="introduction-text53">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <span className="introduction-text53">
+            <span className="introduction-text54">
               regardless of the subject.
             </span>
           </h1>
         </div>
         <div className="introduction-form">
-          <label className="introduction-text54">
+          <label className="introduction-text55">
             <span>Full Name</span>
-            <span className="introduction-text56">*</span>
+            <span className="introduction-text57">*</span>
           </label>
           <input
             type="text"
@@ -278,9 +301,9 @@ const Introduction = (props) => {
             autoComplete="name"
             className="introduction-textinput input"
           />
-          <label className="introduction-text57">
+          <label className="introduction-text58">
             <span>Email Address</span>
-            <span className="introduction-text59">*</span>
+            <span className="introduction-text60">*</span>
           </label>
           <input
             type="email"
@@ -292,9 +315,9 @@ const Introduction = (props) => {
             autoComplete="name"
             className="introduction-textinput1 input"
           />
-          <label className="introduction-text60">
+          <label className="introduction-text61">
             <span>Leave a Message</span>
-            <span className="introduction-text62">*</span>
+            <span className="introduction-text63">*</span>
           </label>
           <textarea
             cols="50"
@@ -304,14 +327,14 @@ const Introduction = (props) => {
             className="introduction-textarea textarea"
           ></textarea>
           <div className="introduction-explore-my-projects1">
-            <span className="introduction-text63">
-              <span className="introduction-text64">Send it</span>
+            <span className="introduction-text64">
+              <span className="introduction-text65">Send it</span>
               <br></br>
             </span>
             <img
               alt="image"
               src="/playground_assets/arrow.svg"
-              className="introduction-image7"
+              className="introduction-image11"
             />
           </div>
         </div>

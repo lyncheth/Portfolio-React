@@ -62,7 +62,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.introduction-image1 {
+.introduction-image01 {
   height: 2rem;
 }
 .introduction-close-mobile-menu {
@@ -237,7 +237,7 @@
 .introduction-text10 {
   font-family: Epilogue;
 }
-.introduction-image2 {
+.introduction-image02 {
   width: auto;
   height: 32px;
   margin-top: var(--dl-space-space-halfunit);
@@ -246,10 +246,10 @@
   margin-left: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.introduction-image2:hover {
+.introduction-image02:hover {
   transform: scale(1.1);
 }
-.introduction-image3 {
+.introduction-image03 {
   width: 100%;
   object-fit: cover;
   margin-right: var(--dl-space-space-fourunits);
@@ -331,13 +331,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.introduction-image4 {
+.introduction-image04 {
   width: 100%;
   object-fit: cover;
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.introduction-image4:hover {
+.introduction-image04:hover {
   transform: scale(1.1);
 }
 .introduction-text18 {
@@ -367,13 +367,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.introduction-image5 {
+.introduction-image05 {
   width: 100%;
   object-fit: cover;
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.introduction-image5:hover {
+.introduction-image05:hover {
   transform: scale(1.1);
 }
 .introduction-text20 {
@@ -518,6 +518,14 @@
   font-family: Epilogue;
   font-weight: 400;
 }
+.introduction-text46 {
+  color: rgb(96, 97, 96);
+  font-size: 0.875em;
+  font-style: normal;
+  font-family: Epilogue;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
 .introduction-avatar {
   flex: 0 0 auto;
   width: 40%;
@@ -527,10 +535,44 @@
   align-items: flex-start;
   margin-left: var(--dl-space-space-sixunits);
 }
-.introduction-image6 {
+.introduction-image06 {
   width: 60%;
   align-self: center;
   object-fit: cover;
+}
+.introduction-tools {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: 250px;
+  justify-content: flex-start;
+}
+.introduction-image07 {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.introduction-image08 {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.introduction-image09 {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.introduction-image10 {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
 }
 .introduction-contact-divider {
   flex: 0 0 auto;
@@ -575,7 +617,7 @@
   margin-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
-.introduction-text46 {
+.introduction-text47 {
   flex: 0 0 auto;
   width: auto;
   height: 100px;
@@ -586,14 +628,11 @@
   flex-direction: column;
   justify-content: center;
 }
-.introduction-text47 {
+.introduction-text48 {
   color: var(--dl-color-gray-700);
   font-size: 1em;
   font-family: Epilogue;
   font-weight: 400;
-}
-.introduction-text48 {
-  font-style: normal;
 }
 .introduction-text49 {
   font-style: normal;
@@ -602,16 +641,19 @@
   font-style: normal;
 }
 .introduction-text51 {
+  font-style: normal;
+}
+.introduction-text52 {
   font-weight: 700;
 }
 .introduction-link {
   font-weight: 700;
   text-decoration: underline;
 }
-.introduction-text52 {
+.introduction-text53 {
   font-weight: 700;
 }
-.introduction-text53 {
+.introduction-text54 {
   font-style: normal;
 }
 .introduction-form {
@@ -624,7 +666,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.introduction-text54 {
+.introduction-text55 {
   color: var(--dl-color-gray-700);
   font-size: 20px;
   align-self: flex-start;
@@ -633,7 +675,7 @@
   font-family: Epilogue;
   font-weight: 500;
 }
-.introduction-text56 {
+.introduction-text57 {
   color: #ff0000;
 }
 .introduction-textinput {
@@ -654,7 +696,7 @@
   border-right-width: 0px;
   border-bottom-width: 1px;
 }
-.introduction-text57 {
+.introduction-text58 {
   color: var(--dl-color-gray-700);
   font-size: 20px;
   align-self: flex-start;
@@ -663,7 +705,7 @@
   font-family: Epilogue;
   font-weight: 500;
 }
-.introduction-text59 {
+.introduction-text60 {
   color: #ff0000;
 }
 .introduction-textinput1 {
@@ -684,7 +726,7 @@
   border-right-width: 0px;
   border-bottom-width: 1px;
 }
-.introduction-text60 {
+.introduction-text61 {
   color: var(--dl-color-gray-700);
   font-size: 20px;
   align-self: flex-start;
@@ -694,12 +736,16 @@
   font-weight: 500;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.introduction-text62 {
+.introduction-text63 {
   color: #ff0000;
 }
 .introduction-textarea {
+  color: var(--dl-color-gray-700);
   width: 100%;
+  resize: none;
+  font-size: 20px;
   align-self: flex-start;
+  font-family: Epilogue;
   border-color: rgb(96, 97, 96);
   background-color: transparent;
   border-top-width: 0px;
@@ -718,7 +764,7 @@
   margin-top: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.introduction-text63 {
+.introduction-text64 {
   color: var(--dl-color-gray-700);
   font-size: 32px;
   font-style: normal;
@@ -726,20 +772,20 @@
   font-family: Epilogue;
   font-weight: 300;
 }
-.introduction-text63:hover {
+.introduction-text64:hover {
   color: #ffffff;
 }
-.introduction-text64 {
+.introduction-text65 {
   font-family: Epilogue;
 }
-.introduction-image7 {
+.introduction-image11 {
   width: auto;
   height: 32px;
   object-fit: cover;
   transition: 0.3s;
   margin-left: var(--dl-space-space-halfunit);
 }
-.introduction-image7:hover {
+.introduction-image11:hover {
   transform: scale(1.1);
 }
 @media(max-width: 1200px) {
@@ -773,7 +819,7 @@
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
-  .introduction-text63 {
+  .introduction-text64 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -804,7 +850,7 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .introduction-text63 {
+  .introduction-text64 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
