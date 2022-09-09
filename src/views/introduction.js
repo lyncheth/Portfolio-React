@@ -9,8 +9,16 @@ const Introduction = (props) => {
   return (
     <div id="intro" className="introduction-container">
       <Helmet>
-        <title>Portfolio</title>
-        <meta property="og:title" content="Portfolio" />
+        <title>Amar Aličič - UI/UX Designer</title>
+        <meta
+          name="description"
+          content="I am Amar Aličič a UI/UX Designer from Bosnia and Herzegovina and I am looking to improve my skills each day. Looking foward to work in IT Industry. "
+        />
+        <meta property="og:title" content="Amar Aličič - UI/UX Designer" />
+        <meta
+          property="og:description"
+          content="I am Amar Aličič a UI/UX Designer from Bosnia and Herzegovina and I am looking to improve my skills each day. Looking foward to work in IT Industry. "
+        />
       </Helmet>
       <header data-role="Header" className="introduction-header">
         <img
@@ -264,9 +272,9 @@ const Introduction = (props) => {
           </label>
           <input
             type="text"
+            id="name"
             required
             placeholder="John Doe"
-            id="name"
             autoComplete="name"
             className="introduction-textinput input"
           />
@@ -276,12 +284,12 @@ const Introduction = (props) => {
           </label>
           <input
             type="email"
-            required
             id="email"
-            autoComplete="name"
             name="email"
-            placeholder="amar@amaralicic.com"
             pattern=".+@gmail.com"
+            required
+            placeholder="amar@amaralicic.com"
+            autoComplete="name"
             className="introduction-textinput1 input"
           />
           <label className="introduction-text60">
@@ -289,10 +297,10 @@ const Introduction = (props) => {
             <span className="introduction-text62">*</span>
           </label>
           <textarea
-            placeholder="Hi ! I would like to work with you..."
-            name="message"
             cols="50"
+            name="message"
             rows="7"
+            placeholder="Hi ! I would like to work with you..."
             className="introduction-textarea textarea"
           ></textarea>
           <div className="introduction-explore-my-projects1">
