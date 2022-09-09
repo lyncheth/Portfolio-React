@@ -185,7 +185,7 @@ const Introduction = (props) => {
             <br></br>
             <span>
               My current focus is on UI/UX Design and I am working as an Intern
-              at Commercecare.ai where I am mainly working on on many marketing
+              at Commercecare.ai where I am mainly working on creating marketing
               graphics. I also work on one of their products called Rokpay.ba
             </span>
             <br className="introduction-text34"></br>
@@ -218,17 +218,94 @@ const Introduction = (props) => {
         </div>
       </div>
       <div className="introduction-contact-divider">
-        <h1 className="introduction-text46">CONTACT</h1>
+        <h1 className="introduction-heading">CONTACT</h1>
         <div className="introduction-line2"></div>
       </div>
       <div className="introduction-contact">
+        <div className="introduction-text46">
+          <h1 className="introduction-text47">
+            <span className="introduction-text48">
+              Do not hesitate to contact me through the form here or by direct
+              email
+            </span>
+            <br className="introduction-text49"></br>
+            <span className="introduction-text50"> on</span>
+            <span className="introduction-text51">
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <a
+              href="https://mailto:amar@amaralicic.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="introduction-link"
+            >
+              amar@amaralicic.com
+            </a>
+            <span className="introduction-text52">
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="introduction-text53">
+              regardless of the subject.
+            </span>
+          </h1>
+        </div>
         <div className="introduction-form">
-          <label className="introduction-text47">Full Name</label>
+          <label className="introduction-text54">
+            <span>Full Name</span>
+            <span className="introduction-text56">*</span>
+          </label>
           <input
             type="text"
-            placeholder="placeholder"
+            required
+            placeholder="John Doe"
+            id="name"
+            autoComplete="name"
             className="introduction-textinput input"
           />
+          <label className="introduction-text57">
+            <span>Email Address</span>
+            <span className="introduction-text59">*</span>
+          </label>
+          <input
+            type="email"
+            required
+            id="email"
+            autoComplete="name"
+            name="email"
+            placeholder="amar@amaralicic.com"
+            pattern=".+@gmail.com"
+            className="introduction-textinput1 input"
+          />
+          <label className="introduction-text60">
+            <span>Leave a Message</span>
+            <span className="introduction-text62">*</span>
+          </label>
+          <textarea
+            placeholder="Hi ! I would like to work with you..."
+            name="message"
+            cols="50"
+            rows="7"
+            className="introduction-textarea textarea"
+          ></textarea>
+          <div className="introduction-explore-my-projects1">
+            <span className="introduction-text63">
+              <span className="introduction-text64">Send it</span>
+              <br></br>
+            </span>
+            <img
+              alt="image"
+              src="/playground_assets/arrow.svg"
+              className="introduction-image7"
+            />
+          </div>
         </div>
       </div>
     </div>

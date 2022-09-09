@@ -541,7 +541,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.introduction-text46 {
+.introduction-heading {
   color: rgb(96, 97, 96);
   font-size: 0.875em;
   font-style: normal;
@@ -572,42 +572,175 @@
   display: flex;
   position: relative;
   align-items: center;
+  margin-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
-.introduction-form {
+.introduction-text46 {
   flex: 0 0 auto;
-  width: 50%;
+  width: auto;
+  height: 100px;
   display: flex;
-  align-self: flex-end;
-  align-items: center;
+  align-self: flex-start;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-sixunits);
   flex-direction: column;
   justify-content: center;
 }
 .introduction-text47 {
   color: var(--dl-color-gray-700);
-  font-size: 20px;
+  font-size: 1em;
+  font-family: Epilogue;
+  font-weight: 400;
+}
+.introduction-text48 {
+  font-style: normal;
+}
+.introduction-text49 {
+  font-style: normal;
+}
+.introduction-text50 {
+  font-style: normal;
+}
+.introduction-text51 {
+  font-weight: 700;
+}
+.introduction-link {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.introduction-text52 {
+  font-weight: 700;
+}
+.introduction-text53 {
+  font-style: normal;
+}
+.introduction-form {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
   align-self: flex-end;
+  align-items: center;
+  margin-left: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: center;
+}
+.introduction-text54 {
+  color: var(--dl-color-gray-700);
+  font-size: 20px;
+  align-self: flex-start;
   font-style: normal;
   text-align: left;
   font-family: Epilogue;
   font-weight: 500;
-  margin-right: var(--dl-space-space-sixunits);
+}
+.introduction-text56 {
+  color: #ff0000;
 }
 .introduction-textinput {
   color: var(--dl-color-gray-700);
-  height: 60px;
+  width: 100%;
+  height: auto;
   font-size: 20px;
-  align-self: flex-end;
-  margin-top: var(--dl-space-space-fourunits);
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-oneandhalfunits);
   font-family: Epilogue;
   border-color: rgb(96, 97, 96);
   border-width: 1px;
-  margin-right: var(--dl-space-space-sixunits);
+  border-radius: 4px;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
   background-color: transparent;
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 1px;
+}
+.introduction-text57 {
+  color: var(--dl-color-gray-700);
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Epilogue;
+  font-weight: 500;
+}
+.introduction-text59 {
+  color: #ff0000;
+}
+.introduction-textinput1 {
+  color: var(--dl-color-gray-700);
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Epilogue;
+  border-color: rgb(96, 97, 96);
+  border-width: 1px;
+  border-radius: 4px;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: transparent;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.introduction-text60 {
+  color: var(--dl-color-gray-700);
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Epilogue;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.introduction-text62 {
+  color: #ff0000;
+}
+.introduction-textarea {
+  width: 100%;
+  align-self: flex-start;
+  border-color: rgb(96, 97, 96);
+  background-color: transparent;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.introduction-explore-my-projects1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  max-width: auto;
+  min-width: auto;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.introduction-text63 {
+  color: var(--dl-color-gray-700);
+  font-size: 32px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Epilogue;
+  font-weight: 300;
+}
+.introduction-text63:hover {
+  color: #ffffff;
+}
+.introduction-text64 {
+  font-family: Epilogue;
+}
+.introduction-image7 {
+  width: auto;
+  height: 32px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.introduction-image7:hover {
+  transform: scale(1.1);
 }
 @media(max-width: 1200px) {
   .introduction-hero {
@@ -640,6 +773,11 @@
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
+  .introduction-text63 {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
 }
 @media(max-width: 767px) {
   .introduction-header {
@@ -663,6 +801,10 @@
     padding-right: var(--dl-space-space-unit);
   }
   .introduction-text09 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .introduction-text63 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
