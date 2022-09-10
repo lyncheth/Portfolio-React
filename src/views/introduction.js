@@ -150,14 +150,12 @@ const Introduction = (props) => {
           </div>
         </div>
       </div>
-      <div className="introduction-about-divider">
+      <div className="introduction-divider1">
         <h1 className="introduction-text22">ABOUT</h1>
-        <div className="introduction-container13">
-          <div className="introduction-line1"></div>
-        </div>
+        <div className="introduction-line1"></div>
       </div>
       <div className="introduction-about-me">
-        <div className="introduction-container14">
+        <div className="introduction-container13">
           <img
             alt="image"
             src="/playground_assets/avatar-800w.png"
@@ -205,32 +203,34 @@ const Introduction = (props) => {
               <br className="introduction-text44"></br>
               <br></br>
             </span>
-            <h1 className="introduction-text46">TOOLS I USE</h1>
           </div>
         </div>
-        <div className="introduction-avatar"></div>
       </div>
-      <div className="introduction-tools">
-        <img
-          alt="image"
-          src="/playground_assets/icons8-figma.svg"
-          className="introduction-image07"
-        />
-        <img
-          alt="image"
-          src="/playground_assets/icons8-sketch.svg"
-          className="introduction-image08"
-        />
-        <img
-          alt="image"
-          src="/playground_assets/icons8-adobe-illustrator%20%5B1%5D.svg"
-          className="introduction-image09"
-        />
-        <img
-          alt="image"
-          src="/playground_assets/icons8-adobe-photoshop.svg"
-          className="introduction-image10"
-        />
+      <div className="introduction-tools-i-use">
+        <h1 className="introduction-text46">TOOLS I USE</h1>
+        <div className="introduction-tools">
+          <img
+            alt="image"
+            src="/playground_assets/icons8-figma.svg"
+            className="introduction-image07"
+          />
+          <img
+            alt="image"
+            src="/playground_assets/icons8-sketch.svg"
+            className="introduction-image08"
+          />
+          <img
+            alt="image"
+            src="/playground_assets/icons8-adobe-illustrator%20%5B1%5D.svg"
+            className="introduction-image09"
+          />
+          <img
+            alt="image"
+            src="/playground_assets/icons8-adobe-photoshop.svg"
+            className="introduction-image10"
+          />
+        </div>
+        <div className="introduction-container14"></div>
       </div>
       <div className="introduction-contact-divider">
         <h1 className="introduction-heading">CONTACT</h1>
