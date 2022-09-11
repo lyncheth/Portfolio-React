@@ -8,7 +8,7 @@ const Introduction = (props) => {
   return (
     <div id="intro" className="introduction-container">
       <Helmet>
-        <title>Amar Aličič - UI/UX Designer</title>
+        <title>Amar Aličić - UI/UX Designer</title>
         <meta
           name="description"
           content="I am Amar Aličič a UI/UX Designer from Bosnia and Herzegovina and I am looking to improve my skills each day. Looking foward to work in IT Industry. "
@@ -170,7 +170,7 @@ const Introduction = (props) => {
               <span>
                 My current focus is on UI/UX Design and I am working as an
                 Intern at Commercecare.ai where I am mainly working on creating
-                marketing graphics. I also work on one of their products called
+                marketing graphics. I also work on one of their product called
                 Rokpay.ba
               </span>
               <br className="introduction-text41"></br>
