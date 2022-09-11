@@ -4,58 +4,17 @@
   align-items: center;
   flex-direction: row;
 }
-.navigation-links-navlink {
-  color: #999999;
-  font-size: 16px;
-  font-style: normal;
-  transition: 0.3s;
-  font-family: Epilogue;
-  font-weight: 300;
-  line-height: 1.15;
-  border-color: #999999;
-  border-width: 1px;
-  text-transform: none;
-  text-decoration: none;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 1px;
-}
-.navigation-links-navlink:hover {
-  color: #dfdfdf;
-}
-.navigation-links-text {
-  color: #999999;
-  font-size: 16px;
-  font-style: normal;
-  font-family: Epilogue;
-  font-weight: 300;
-  line-height: 1.15;
-  margin-left: var(--dl-space-space-fourunits);
-  text-transform: none;
-  text-decoration: none;
-}
 .navigation-links-text1 {
-  color: #999999;
-  font-size: 16px;
-  font-style: normal;
-  font-family: Epilogue;
-  font-weight: 300;
-  line-height: 1.15;
-  margin-left: var(--dl-space-space-fourunits);
-  text-transform: none;
-  text-decoration: none;
+  margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-text2 {
-  color: #999999;
-  font-size: 16px;
-  font-style: normal;
-  font-family: Epilogue;
-  font-weight: 300;
-  line-height: 1.15;
-  margin-left: var(--dl-space-space-fourunits);
-  text-transform: none;
-  text-decoration: none;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text3 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text4 {
+  margin-left: var(--dl-space-space-twounits);
 }
 
 
@@ -70,7 +29,23 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-navlink {
-    align-self: center;
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
   }
 }
