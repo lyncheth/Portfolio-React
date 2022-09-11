@@ -19,59 +19,31 @@ const Introduction = (props) => {
           content="I am Amar Aličič a UI/UX Designer from Bosnia and Herzegovina and I am looking to improve my skills each day. Looking foward to work in IT Industry. "
         />
       </Helmet>
-      <div className="introduction-header">
-        <img
-          src="/playground_assets/logo_white.svg"
-          alt="image"
-          className="introduction-logo"
-        />
-        <div className="introduction-text">
-          <span className="introduction-text01">Introduction</span>
-          <span className="introduction-text02">
-            <span>Projects</span>
-            <br></br>
-          </span>
-          <span className="introduction-text05">
-            <span>About</span>
-            <br></br>
-          </span>
-          <span className="introduction-text08">
-            <span>Contact</span>
-            <br></br>
-          </span>
-          <span className="introduction-text11">
-            <span>Portfolio</span>
-            <br></br>
-          </span>
-        </div>
-      </div>
-      <header data-role="Header" className="introduction-header1">
+      <header data-role="Header" className="introduction-header">
         <img
           alt="logo"
           src="/playground_assets/logo_white.svg"
           className="introduction-image"
         />
-        <div className="introduction-text14">
-          <span className="introduction-text15">Introduction</span>
-          <span className="introduction-text16">
+        <div className="introduction-text">
+          <a href="#introduction" className="introduction-link">
+            Introduction
+          </a>
+          <a href="#projects" className="introduction-link1">
             <span>Projects</span>
             <br></br>
-          </span>
-          <span className="introduction-text19">
+          </a>
+          <a href="#about" className="introduction-link2">
             <span>About</span>
             <br></br>
-          </span>
-          <span className="introduction-text22">
+          </a>
+          <a href="#contact" className="introduction-link3">
             <span>Contact</span>
             <br></br>
-          </span>
-          <span className="introduction-text25">
-            <span>Portfolio</span>
-            <br></br>
-          </span>
+          </a>
         </div>
       </header>
-      <div className="introduction-hero">
+      <div id="introduction" className="introduction-hero">
         <div className="introduction-container01">
           <div className="introduction-container02">
             <div className="introduction-container03">
@@ -82,21 +54,21 @@ const Introduction = (props) => {
                       <div className="introduction-container08">
                         <div className="introduction-container09">
                           <div className="introduction-container10">
-                            <h1 className="introduction-text28">
+                            <h1 className="introduction-text07">
                               Hi There! 👋🏻
                             </h1>
-                            <h1 className="introduction-text29">
-                              <span className="introduction-text30">
+                            <h1 className="introduction-text08">
+                              <span className="introduction-text09">
                                 I create and design mobile
                               </span>
-                              <br className="introduction-text31"></br>
-                              <span className="introduction-text32">
+                              <br className="introduction-text10"></br>
+                              <span className="introduction-text11">
                                 applications.
                               </span>
                               <br></br>
                             </h1>
-                            <span className="introduction-text34">
-                              <span className="introduction-text35">
+                            <span className="introduction-text13">
+                              <span className="introduction-text14">
                                 I&apos;m a UI/UX designer with a passion to
                                 create great new designs and user experiences
                               </span>
@@ -118,23 +90,25 @@ const Introduction = (props) => {
           className="introduction-image01"
         />
       </div>
-      <div className="introduction-explore-my-projects">
-        <span className="introduction-text37">
-          <span className="introduction-text38">Explore my projects</span>
-          <br></br>
-        </span>
-        <img
-          alt="image"
-          src="/playground_assets/arrow.svg"
-          className="introduction-image02"
-        />
-      </div>
-      <div className="introduction-divider">
-        <h1 className="introduction-text40">PROJECTS</h1>
+      <a href="#projects" className="introduction-link4">
+        <div className="introduction-explore-my-projects">
+          <span className="introduction-text16">
+            <span className="introduction-text17">Explore my projects</span>
+            <br></br>
+          </span>
+          <img
+            alt="image"
+            src="/playground_assets/arrow.svg"
+            className="introduction-image02"
+          />
+        </div>
+      </a>
+      <div className="introduction-projects-divider">
+        <h1 className="introduction-text19">PROJECTS</h1>
         <div className="introduction-line"></div>
       </div>
       <div className="introduction-container11">
-        <span className="introduction-text41">
+        <span className="introduction-text20">
           <span>
             Check out some of my designs that I have done or am working right
             now. Please note that some 
@@ -145,15 +119,15 @@ const Introduction = (props) => {
         </span>
       </div>
       <div className="introduction-projects">
-        <div className="introduction-projects-with-names">
+        <div id="projects" className="introduction-projects-with-names">
           <div className="introduction-project">
             <img
               alt="image"
               src="/playground_assets/thumbnail.svg"
               className="introduction-image03"
             />
-            <h1 className="introduction-text46">Real Estate Application</h1>
-            <h1 className="introduction-text47">Glive</h1>
+            <h1 className="introduction-text25">Real Estate Application</h1>
+            <h1 className="introduction-text26">Glive</h1>
           </div>
           <div className="introduction-project1">
             <img
@@ -161,32 +135,32 @@ const Introduction = (props) => {
               src="/playground_assets/untitled-1-1200w.png"
               className="introduction-image04"
             />
-            <h1 className="introduction-text48">Workout Application</h1>
-            <h1 className="introduction-text49">Praction</h1>
+            <h1 className="introduction-text27">Workout Application</h1>
+            <h1 className="introduction-text28">Praction</h1>
           </div>
         </div>
       </div>
-      <div className="introduction-divider1">
-        <h1 className="introduction-text50">ABOUT</h1>
+      <div className="introduction-about-divider">
+        <h1 className="introduction-text29">ABOUT</h1>
         <div className="introduction-line1"></div>
       </div>
       <div className="introduction-about-me">
-        <div className="introduction-container12">
+        <div id="about" className="introduction-container12">
           <img
             alt="image"
             src="/playground_assets/avatar-800w.png"
             className="introduction-image05"
           />
-          <div className="introduction-text51">
-            <h1 className="introduction-text52">WHO AM I</h1>
-            <span className="introduction-text53">
+          <div className="introduction-text30">
+            <h1 className="introduction-text31">WHO AM I</h1>
+            <span className="introduction-text32">
               <span>
                 My name is Amar Aličič. I am 26 years old, I live in Zenica,
                 Bosnia and Herzegovina, and I am 
               </span>
               <span>self-taught Graphics and UI/UX Designer.</span>
-              <br className="introduction-text56"></br>
-              <br className="introduction-text57"></br>
+              <br className="introduction-text35"></br>
+              <br className="introduction-text36"></br>
               <span>
                 I have multiple years of experience working with many designing
                 and 3D modeling tools. 
@@ -199,8 +173,8 @@ const Introduction = (props) => {
                 marketing graphics. I also work on one of their products called
                 Rokpay.ba
               </span>
-              <br className="introduction-text62"></br>
-              <br className="introduction-text63"></br>
+              <br className="introduction-text41"></br>
+              <br className="introduction-text42"></br>
               <span>
                 UI/UX Design started for me as a hobby and it turned to passion.
                 Now I am working on perfecting those skills, and learning more
@@ -211,19 +185,19 @@ const Introduction = (props) => {
                 Also I have a decent skill of understanding of HTML, CSS, and
                 JavaScipt.
               </span>
-              <span className="introduction-text67"> </span>
-              <br className="introduction-text68"></br>
-              <br className="introduction-text69"></br>
-              <br className="introduction-text70"></br>
+              <span className="introduction-text46"> </span>
+              <br className="introduction-text47"></br>
+              <br className="introduction-text48"></br>
+              <br className="introduction-text49"></br>
               <br></br>
-              <br className="introduction-text72"></br>
+              <br className="introduction-text51"></br>
               <br></br>
             </span>
           </div>
         </div>
       </div>
       <div className="introduction-tools-i-use">
-        <h1 className="introduction-text74">TOOLS I USE</h1>
+        <h1 className="introduction-text53">TOOLS I USE</h1>
         <div className="introduction-tools">
           <img
             alt="image"
@@ -252,17 +226,17 @@ const Introduction = (props) => {
         <h1 className="introduction-heading">CONTACT</h1>
         <div className="introduction-line2"></div>
       </div>
-      <div className="introduction-contact">
-        <div className="introduction-text75">
-          <h1 className="introduction-text76">
-            <span className="introduction-text77">
+      <div id="contact" className="introduction-contact">
+        <div className="introduction-text54">
+          <h1 className="introduction-text55">
+            <span className="introduction-text56">
               Do not hesitate to contact me through the form here
             </span>
-            <br className="introduction-text78"></br>
-            <span className="introduction-text79"> or by direct email</span>
-            <br className="introduction-text80"></br>
-            <span className="introduction-text81"> on</span>
-            <span className="introduction-text82">
+            <br className="introduction-text57"></br>
+            <span className="introduction-text58"> or by direct email</span>
+            <br className="introduction-text59"></br>
+            <span className="introduction-text60"> on</span>
+            <span className="introduction-text61">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -270,29 +244,27 @@ const Introduction = (props) => {
               />
             </span>
             <a
-              href="https://mailto:amar@amaralicic.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="introduction-link"
+              href="mailto:amar@amaralicic.com?subject=Contact"
+              className="introduction-link5"
             >
               amar@amaralicic.com
             </a>
-            <span className="introduction-text83">
+            <span className="introduction-text62">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <span className="introduction-text84">
+            <span className="introduction-text63">
               regardless of the subject.
             </span>
           </h1>
         </div>
         <div className="introduction-form">
-          <label className="introduction-text85">
+          <label className="introduction-text64">
             <span>Full Name</span>
-            <span className="introduction-text87">*</span>
+            <span className="introduction-text66">*</span>
           </label>
           <input
             type="text"
@@ -302,9 +274,9 @@ const Introduction = (props) => {
             autoComplete="name"
             className="introduction-textinput input"
           />
-          <label className="introduction-text88">
+          <label className="introduction-text67">
             <span>Email Address</span>
-            <span className="introduction-text90">*</span>
+            <span className="introduction-text69">*</span>
           </label>
           <input
             type="email"
@@ -316,9 +288,9 @@ const Introduction = (props) => {
             autoComplete="name"
             className="introduction-textinput1 input"
           />
-          <label className="introduction-text91">
+          <label className="introduction-text70">
             <span>Leave a Message</span>
-            <span className="introduction-text93">*</span>
+            <span className="introduction-text72">*</span>
           </label>
           <textarea
             cols="50"
@@ -328,8 +300,8 @@ const Introduction = (props) => {
             className="introduction-textarea textarea"
           ></textarea>
           <div className="introduction-explore-my-projects1">
-            <span className="introduction-text94">
-              <span className="introduction-text95">Send it</span>
+            <span className="introduction-text73">
+              <span className="introduction-text74">Send it</span>
               <br></br>
             </span>
             <img
@@ -339,6 +311,25 @@ const Introduction = (props) => {
             />
           </div>
         </div>
+      </div>
+      <div className="introduction-footer">
+        <a
+          href="https://www.linkedin.com/in/amaralicic/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="introduction-link6"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://www.instagram.com/xoamarxo/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="introduction-link7"
+        >
+          Instagram
+        </a>
+        <span className="introduction-text76">© Amar Aličić</span>
       </div>
     </div>
   )
