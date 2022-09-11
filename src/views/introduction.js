@@ -95,21 +95,21 @@ const Introduction = (props) => {
               </div>
             </div>
           </div>
-          <div className="introduction-explore-my-projects">
-            <span className="introduction-text09">
-              <span className="introduction-text10">Explore my projects</span>
-              <br></br>
-            </span>
-            <img
-              alt="image"
-              src="/playground_assets/arrow.svg"
-              className="introduction-image02"
-            />
-          </div>
         </div>
         <img
           alt="image"
           src="/playground_assets/hero-base-dark-1500w.png"
+          className="introduction-image02"
+        />
+      </div>
+      <div className="introduction-explore-my-projects">
+        <span className="introduction-text09">
+          <span className="introduction-text10">Explore my projects</span>
+          <br></br>
+        </span>
+        <img
+          alt="image"
+          src="/playground_assets/arrow.svg"
           className="introduction-image03"
         />
       </div>

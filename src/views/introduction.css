@@ -80,7 +80,7 @@
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   min-width: 100%;
-  min-height: 80vh;
+  min-height: 70vh;
   align-items: center;
   padding-top: var(--dl-space-space-halfunit);
   padding-left: 250px;
@@ -164,8 +164,7 @@
 .introduction-container11 {
   display: flex;
   position: relative;
-  margin-right: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-sixunits);
   flex-direction: column;
 }
 .introduction-text {
@@ -196,6 +195,11 @@
 .introduction-text07 {
   font-family: Epilogue;
 }
+.introduction-image02 {
+  width: 100%;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-fourunits);
+}
 .introduction-explore-my-projects {
   flex: 0 0 auto;
   width: auto;
@@ -204,7 +208,7 @@
   max-width: auto;
   min-width: auto;
   align-self: flex-start;
-  margin-top: var(--dl-space-space-sixunits);
+  margin-left: 250px;
   flex-direction: row;
 }
 .introduction-text09 {
@@ -223,7 +227,7 @@
 .introduction-text10 {
   font-family: Epilogue;
 }
-.introduction-image02 {
+.introduction-image03 {
   width: auto;
   height: 32px;
   margin-top: var(--dl-space-space-halfunit);
@@ -232,13 +236,8 @@
   margin-left: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.introduction-image02:hover {
+.introduction-image03:hover {
   transform: scale(1.1);
-}
-.introduction-image03 {
-  width: 100%;
-  object-fit: cover;
-  margin-right: var(--dl-space-space-fourunits);
 }
 .introduction-divider {
   flex: 1;
@@ -802,7 +801,7 @@
     flex-direction: column;
   }
   .introduction-text13 {
-    margin-left: 250px;
+    margin-left: 220px;
   }
   .introduction-text24 {
     margin-top: 0px;
@@ -841,6 +840,13 @@
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
+  }
+  .introduction-image02 {
+    margin-right: 0px;
+  }
+  .introduction-explore-my-projects {
+    align-self: center;
+    margin-left: 0px;
   }
   .introduction-text09 {
     text-align: center;
@@ -907,13 +913,16 @@
 @media(max-width: 767px) {
   .introduction-header {
     padding-left: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-twounits);
   }
   .introduction-nav {
     display: none;
   }
   .introduction-burger-menu {
+    width: auto;
     display: flex;
+    align-self: center;
     align-items: center;
     margin-left: var(--dl-space-space-fourunits);
     justify-content: center;
@@ -935,9 +944,20 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .introduction-text01 {
+    width: auto;
+    max-width: auto;
+  }
   .introduction-text06 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
+  }
+  .introduction-image02 {
+    margin-right: 0px;
+  }
+  .introduction-explore-my-projects {
+    align-self: center;
+    margin-left: 0px;
   }
   .introduction-text09 {
     padding-left: var(--dl-space-space-unit);
@@ -950,10 +970,10 @@
     margin-left: var(--dl-space-space-threeunits);
   }
   .introduction-line {
-    width: 80%;
+    width: 60%;
   }
   .introduction-text13 {
-    margin-left: var(--dl-space-space-threeunits);
+    margin-left: var(--dl-space-space-twounits);
   }
   .introduction-projects-with-names {
     flex-direction: column;
@@ -986,7 +1006,7 @@
     margin-left: var(--dl-space-space-threeunits);
   }
   .introduction-line1 {
-    width: 80%;
+    width: 60%;
   }
   .introduction-container13 {
     flex-direction: column;
@@ -1012,15 +1032,11 @@
   .introduction-tools-i-use {
     margin-left: var(--dl-space-space-threeunits);
   }
-  .introduction-tools {
-    margin-top: var(--dl-space-space-oneandhalfunits);
-    margin-left: var(--dl-space-space-threeunits);
-  }
   .introduction-heading {
     margin-left: var(--dl-space-space-threeunits);
   }
   .introduction-line2 {
-    width: 80%;
+    width: 60%;
   }
   .introduction-contact {
     flex-direction: column;
@@ -1069,5 +1085,11 @@
   }
   .introduction-container11 {
     margin-bottom: var(--dl-space-space-unit);
+  }
+  .introduction-image02 {
+    margin-right: 0px;
+  }
+  .introduction-tools {
+    margin-left: 0px;
   }
 }
