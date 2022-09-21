@@ -813,17 +813,6 @@
   margin-top: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.introduction-text73 {
-  color: var(--dl-color-gray-700);
-  font-size: 32px;
-  font-style: normal;
-  transition: 0.3s;
-  font-family: Epilogue;
-  font-weight: 300;
-}
-.introduction-text73:hover {
-  color: #ffffff;
-}
 .introduction-text74 {
   font-family: Epilogue;
 }
@@ -1080,11 +1069,6 @@
     align-self: flex-start;
     margin-left: var(--dl-space-space-threeunits);
   }
-  .introduction-text73 {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
   .introduction-footer {
     padding-left: var(--dl-space-space-sixunits);
     padding-right: var(--dl-space-space-sixunits);
@@ -1279,10 +1263,6 @@
   }
   .introduction-textarea {
     width: 80%;
-  }
-  .introduction-text73 {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {

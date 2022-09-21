@@ -76,6 +76,17 @@
 .teleport-show {
   display: flex !important;
 }
+.submit {
+  color: var(--dl-color-gray-700);
+  font-size: 32px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Epilogue;
+  font-weight: 300;
+}
+.submit:hover {
+  color: #ffffff;
+}
 .heading {
   font-size: 32px;
   font-family: Inter;
@@ -101,3 +112,18 @@
   text-transform: none;
   text-decoration: none;
 }
+
+@media(max-width: 991px) {
+  .submit {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .submit {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+

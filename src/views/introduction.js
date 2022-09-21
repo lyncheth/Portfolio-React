@@ -300,7 +300,7 @@ const Introduction = (props) => {
             className="introduction-textarea textarea"
           ></textarea>
           <div className="introduction-explore-my-projects1">
-            <span className="introduction-text73">
+            <span id="submit" className="submit">
               <span className="introduction-text74">Send it</span>
               <br></br>
             </span>
