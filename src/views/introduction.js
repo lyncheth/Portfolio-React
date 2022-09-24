@@ -29,15 +29,15 @@ const Introduction = (props) => {
           <a href="#introduction" className="introduction-link">
             Introduction
           </a>
-          <a href="#projects" className="introduction-link1">
+          <a href="#projects" className="introduction-link01">
             <span>Projects</span>
             <br></br>
           </a>
-          <a href="#about" className="introduction-link2">
+          <a href="#about" className="introduction-link02">
             <span>About</span>
             <br></br>
           </a>
-          <a href="#contact" className="introduction-link3">
+          <a href="#contact" className="introduction-link03">
             <span>Contact</span>
             <br></br>
           </a>
@@ -90,7 +90,7 @@ const Introduction = (props) => {
           className="introduction-image01"
         />
       </div>
-      <a href="#projects" className="introduction-link4">
+      <a href="#projects" className="introduction-link04">
         <div className="introduction-explore-my-projects">
           <span className="introduction-text16">
             <span className="introduction-text17">Explore my projects</span>
@@ -121,13 +121,34 @@ const Introduction = (props) => {
       <div className="introduction-projects">
         <div id="projects" className="introduction-projects-with-names">
           <div className="introduction-project">
-            <img
-              alt="image"
-              src="/playground_assets/thumbnail.svg"
-              className="introduction-image03"
-            />
-            <h1 className="introduction-text25">Real Estate Application</h1>
-            <h1 className="introduction-text26">Glive</h1>
+            <a
+              href="https://www.figma.com/community/file/1144574049134194464"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="introduction-link05"
+            >
+              <img
+                alt="image"
+                src="/playground_assets/thumbnail.svg"
+                className="introduction-image03"
+              />
+            </a>
+            <a
+              href="https://www.figma.com/community/file/1144574049134194464"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="introduction-link06"
+            >
+              <h1 className="introduction-text25">Real Estate Application</h1>
+            </a>
+            <a
+              href="https://www.figma.com/community/file/1144574049134194464"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="introduction-link07"
+            >
+              <h1 className="introduction-text26">Glive</h1>
+            </a>
           </div>
           <div className="introduction-project1">
             <img
@@ -245,7 +266,7 @@ const Introduction = (props) => {
             </span>
             <a
               href="mailto:amar@amaralicic.com?subject=Contact"
-              className="introduction-link5"
+              className="introduction-link08"
             >
               amar@amaralicic.com
             </a>
@@ -268,7 +289,7 @@ const Introduction = (props) => {
           </label>
           <input
             type="text"
-            id="name"
+            id="from_name"
             required
             placeholder="John Doe"
             autoComplete="name"
@@ -280,7 +301,7 @@ const Introduction = (props) => {
           </label>
           <input
             type="email"
-            id="email"
+            id="reply_to"
             name="email"
             pattern=".+@gmail.com"
             required
@@ -300,7 +321,7 @@ const Introduction = (props) => {
             className="introduction-textarea textarea"
           ></textarea>
           <div className="introduction-explore-my-projects1">
-            <span id="submit" className="submit">
+            <span id="submit" className="submit button">
               <span className="introduction-text74">Send it</span>
               <br></br>
             </span>
@@ -317,7 +338,7 @@ const Introduction = (props) => {
           href="https://www.linkedin.com/in/amaralicic/"
           target="_blank"
           rel="noreferrer noopener"
-          className="introduction-link6"
+          className="introduction-link09"
         >
           LinkedIn
         </a>
@@ -325,7 +346,7 @@ const Introduction = (props) => {
           href="https://www.instagram.com/xoamarxo/"
           target="_blank"
           rel="noreferrer noopener"
-          className="introduction-link7"
+          className="introduction-link10"
         >
           Instagram
         </a>

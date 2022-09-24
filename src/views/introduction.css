@@ -52,7 +52,7 @@
   border-right-width: 0px;
   border-bottom-width: 1px;
 }
-.introduction-link1 {
+.introduction-link01 {
   color: rgb(153, 153, 153);
   font-size: 16px;
   font-style: normal;
@@ -62,7 +62,7 @@
   margin-right: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.introduction-link1:hover {
+.introduction-link01:hover {
   color: #ffffff;
   border-color: #ffffff;
   border-width: 1px;
@@ -71,7 +71,7 @@
   border-right-width: 0px;
   border-bottom-width: 1px;
 }
-.introduction-link2 {
+.introduction-link02 {
   color: rgb(153, 153, 153);
   font-size: 16px;
   font-style: normal;
@@ -81,7 +81,7 @@
   margin-right: var(--dl-space-space-fourunits);
   text-decoration: none;
 }
-.introduction-link2:hover {
+.introduction-link02:hover {
   color: #ffffff;
   border-color: #ffffff;
   border-width: 1px;
@@ -90,7 +90,7 @@
   border-right-width: 0px;
   border-bottom-width: 1px;
 }
-.introduction-link3 {
+.introduction-link03 {
   color: rgb(153, 153, 153);
   font-size: 16px;
   font-style: normal;
@@ -100,7 +100,7 @@
   margin-right: 0px;
   text-decoration: none;
 }
-.introduction-link3:hover {
+.introduction-link03:hover {
   color: #ffffff;
   border-color: #ffffff;
   border-width: 1px;
@@ -235,7 +235,7 @@
   object-fit: cover;
   margin-right: var(--dl-space-space-fourunits);
 }
-.introduction-link4 {
+.introduction-link04 {
   display: contents;
 }
 .introduction-explore-my-projects {
@@ -355,14 +355,21 @@
   flex-direction: column;
   justify-content: center;
 }
+.introduction-link05 {
+  display: contents;
+}
 .introduction-image03 {
   width: 100%;
   object-fit: cover;
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
 }
 .introduction-image03:hover {
   transform: scale(1.1);
+}
+.introduction-link06 {
+  display: contents;
 }
 .introduction-text25 {
   color: rgb(96, 97, 96);
@@ -373,6 +380,10 @@
   font-family: Epilogue;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.introduction-link07 {
+  display: contents;
 }
 .introduction-text26 {
   color: var(--dl-color-gray-700);
@@ -380,6 +391,7 @@
   font-style: normal;
   font-family: Epilogue;
   font-weight: 500;
+  text-decoration: none;
 }
 .introduction-project1 {
   flex: 0 0 auto;
@@ -695,7 +707,7 @@
 .introduction-text61 {
   color: var(--dl-color-gray-700);
 }
-.introduction-link5 {
+.introduction-link08 {
   color: #ffffff;
 }
 .introduction-text62 {
@@ -839,7 +851,7 @@
   padding-right: 250px;
   justify-content: flex-start;
 }
-.introduction-link6 {
+.introduction-link09 {
   color: var(--dl-color-gray-700);
   font-size: 24px;
   font-style: normal;
@@ -850,7 +862,7 @@
   padding-right: 0px;
   text-decoration: none;
 }
-.introduction-link6:hover {
+.introduction-link09:hover {
   color: #ffffff;
   border-color: #ffffff;
   border-width: 1px;
@@ -859,7 +871,7 @@
   border-right-width: 0px;
   border-bottom-width: 1px;
 }
-.introduction-link7 {
+.introduction-link10 {
   color: var(--dl-color-gray-700);
   font-size: 24px;
   font-style: normal;
@@ -868,7 +880,7 @@
   font-weight: 300;
   text-decoration: none;
 }
-.introduction-link7:hover {
+.introduction-link10:hover {
   color: #ffffff;
   border-color: #ffffff;
   border-width: 1px;
@@ -953,7 +965,7 @@
   .introduction-text61 {
     font-weight: 700;
   }
-  .introduction-link5 {
+  .introduction-link08 {
     font-weight: 700;
     text-decoration: underline;
   }
@@ -1097,15 +1109,15 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .introduction-link1 {
+  .introduction-link01 {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .introduction-link2 {
+  .introduction-link02 {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .introduction-link3 {
+  .introduction-link03 {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
@@ -1340,11 +1352,11 @@
     padding-right: 0px;
     flex-direction: column;
   }
-  .introduction-link6 {
+  .introduction-link09 {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .introduction-link7 {
+  .introduction-link10 {
     padding-bottom: var(--dl-space-space-halfunit);
   }
   .introduction-text76 {
