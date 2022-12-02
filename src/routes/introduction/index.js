@@ -45,65 +45,51 @@ const Introduction = (props) => {
         </div>
       </header>
       <div id="introduction" class={styles['hero']}>
-        <div class={styles['container01']}>
-          <div class={styles['container02']}>
-            <div class={styles['container03']}>
-              <div class={styles['container04']}>
-                <div class={styles['container05']}>
-                  <div class={styles['container06']}>
-                    <div class={styles['container07']}>
-                      <div class={styles['container08']}>
-                        <div class={styles['container09']}>
-                          <div class={styles['container10']}>
-                            <h1 class={styles['text07']}>Hi There! 👋🏻</h1>
-                            <h1 class={styles['text08']}>
-                              <span class={styles['text09']}>
-                                I create and design mobile
-                              </span>
-                              <br class={styles['text10']}></br>
-                              <span class={styles['text11']}>
-                                applications.
-                              </span>
-                              <br></br>
-                            </h1>
-                            <span class={styles['text13']}>
-                              <span class={styles['text14']}>
-                                I&apos;m a UI/UX designer with a passion to
-                                create great new designs and user experiences
-                              </span>
-                              <br></br>
-                            </span>
-                            <div class={styles['tools-i-use']}>
-                              <h1 class={styles['text16']}>TOOLS I USE</h1>
-                              <div class={styles['tools']}>
-                                <img
-                                  alt="image"
-                                  src="/assets/playground_assets/icons8-figma.svg"
-                                  class={styles['image01']}
-                                />
-                                <img
-                                  alt="image"
-                                  src="/assets/playground_assets/icons8-sketch.svg"
-                                  class={styles['image02']}
-                                />
-                                <img
-                                  alt="image"
-                                  src="/assets/playground_assets/icons8-adobe-illustrator%20%5B1%5D.svg"
-                                  class={styles['image03']}
-                                />
-                                <img
-                                  alt="image"
-                                  src="/assets/playground_assets/icons8-adobe-photoshop.svg"
-                                  class={styles['image04']}
-                                />
-                              </div>
-                              <div class={styles['container11']}></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+        <div class={styles['container1']}>
+          <div class={styles['container2']}>
+            <div class={styles['container3']}>
+              <h1 class={styles['text07']}>Hi There! 👋🏻</h1>
+              <h1 class={styles['text08']}>
+                <span class={styles['text09']}>I create and design mobile</span>
+                <br class={styles['text10']}></br>
+                <span class={styles['text11']}>applications.</span>
+                <br></br>
+              </h1>
+              <span class={styles['text13']}>
+                <span class={styles['text14']}>
+                  I&apos;m a UX/UI designer with a passion to create great new
+                  designs and user experiences.
+                </span>
+                <br></br>
+              </span>
+              <div class={styles['tools-i-use']}>
+                <h1 class={styles['text16']}>TOOLS I USE</h1>
+                <div class={styles['tools']}>
+                  <img
+                    alt="image"
+                    src="/assets/playground_assets/icons8-figma.svg"
+                    class={styles['image01']}
+                  />
+                  <img
+                    alt="image"
+                    src="/assets/playground_assets/icons8-sketch.svg"
+                    class={styles['image02']}
+                  />
+                  <img
+                    alt="image"
+                    src="/assets/playground_assets/icons8-adobe-illustrator%20%5B1%5D.svg"
+                    class={styles['image03']}
+                  />
+                  <img
+                    alt="image"
+                    src="/assets/playground_assets/icons8-adobe-photoshop.svg"
+                    class={styles['image04']}
+                  />
+                  <img
+                    alt="image"
+                    src="/assets/playground_assets/icons8-adobe-photoshop.svg"
+                    class={styles['image05']}
+                  />
                 </div>
               </div>
             </div>
@@ -112,7 +98,7 @@ const Introduction = (props) => {
         <img
           alt="image"
           src="/assets/playground_assets/hero-base-dark-1500w.png"
-          class={styles['image05']}
+          class={styles['image06']}
         />
       </div>
       <a href="#projects" class={styles['link04']}>
@@ -124,7 +110,7 @@ const Introduction = (props) => {
           <img
             alt="image"
             src="/assets/playground_assets/arrow.svg"
-            class={styles['image06']}
+            class={styles['image07']}
           />
         </div>
       </a>
@@ -132,14 +118,14 @@ const Introduction = (props) => {
         <h1 class={styles['text20']}>PROJECTS</h1>
         <div class={styles['line']}></div>
       </div>
-      <div class={styles['container12']}>
+      <div class={styles['container4']}>
         <span class={styles['text21']}>
           <span>
             Check out some of my designs that I have done or am working right
             now. Please note that some 
           </span>
           <br></br>
-          <span>of the designs are under work.</span>
+          <span>of the designs are work in progress.</span>
           <br></br>
         </span>
       </div>
@@ -155,7 +141,7 @@ const Introduction = (props) => {
               <img
                 alt="image"
                 src="/assets/playground_assets/thumbnail.svg"
-                class={styles['image07']}
+                class={styles['image08']}
               />
             </a>
             <a
@@ -178,35 +164,53 @@ const Introduction = (props) => {
           <div class={styles['project1']}>
             <img
               alt="image"
-              src="/assets/playground_assets/untitled-1-1200w.png"
-              class={styles['image08']}
+              src="/assets/playground_assets/crushyframe.svg"
+              class={styles['image09']}
             />
-            <h1 class={styles['text28']}>Workout Application</h1>
-            <h1 class={styles['text29']}>Praction</h1>
+            <h1 class={styles['text28']}>
+              <span>Dating Application</span>
+              <br></br>
+            </h1>
+            <h1 class={styles['text31']}>Crushy</h1>
+          </div>
+          <div class={styles['project2']}>
+            <img
+              alt="image"
+              src="/assets/playground_assets/newcc-1200w.png"
+              class={styles['image10']}
+            />
+            <h1 class={styles['text32']}>
+              <span>E-Commerce Company</span>
+              <br></br>
+            </h1>
+            <h1 class={styles['text35']}>
+              <span>Commerce Care</span>
+              <br></br>
+            </h1>
           </div>
         </div>
       </div>
       <div class={styles['about-divider']}>
-        <h1 class={styles['text30']}>ABOUT</h1>
+        <h1 class={styles['text38']}>ABOUT</h1>
         <div class={styles['line1']}></div>
       </div>
       <div class={styles['about-me']}>
-        <div id="about" class={styles['container13']}>
+        <div id="about" class={styles['container5']}>
           <img
             alt="image"
-            src="/assets/playground_assets/microsoftteams-image2-800w.png"
-            class={styles['image09']}
+            src="/assets/playground_assets/microsoftteams-image2-500h.png"
+            class={styles['image11']}
           />
-          <div class={styles['text31']}>
-            <h1 class={styles['text32']}>WHO AM I</h1>
-            <span class={styles['text33']}>
+          <div class={styles['text39']}>
+            <h1 class={styles['text40']}>WHO AM I</h1>
+            <span class={styles['text41']}>
               <span>
                 My name is Amar Aličič. I am 26 years old, I live in Zenica,
                 Bosnia and Herzegovina, and I am 
               </span>
               <span>self-taught Graphics and UI/UX Designer.</span>
-              <br class={styles['text36']}></br>
-              <br class={styles['text37']}></br>
+              <br class={styles['text44']}></br>
+              <br class={styles['text45']}></br>
               <span>
                 I have multiple years of experience working with many designing
                 and 3D modeling tools. 
@@ -214,29 +218,39 @@ const Introduction = (props) => {
               <br></br>
               <br></br>
               <span>
-                My current focus is on UI/UX Design and I am working as an
-                Intern at Commercecare.ai where I am mainly working on creating
-                marketing graphics. I also work on one of their products called
-                Rokpay.ba
+                Currently I work as a freelance UX/UI Designer on Upwork but in
+                past I worked at Commercecare.ai and Rokpay.ba
               </span>
-              <br class={styles['text42']}></br>
-              <br class={styles['text43']}></br>
+              <span class={styles['text50']}>
+                . I am
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span>
+                specialized in creating mobile application designs but I have
+                decent skill in web design as well.
+              </span>
+              <br class={styles['text52']}></br>
+              <br class={styles['text53']}></br>
               <span>
                 UI/UX Design started for me as a hobby and it turned to passion.
                 Now I am working on perfecting those skills, and learning more
-                each day in my internship .
+                each day .
               </span>
               <br></br>
               <span>
                 Also I have a decent skill of understanding of HTML, CSS, and
                 JavaScipt.
               </span>
-              <span class={styles['text47']}> </span>
-              <br class={styles['text48']}></br>
-              <br class={styles['text49']}></br>
-              <br class={styles['text50']}></br>
+              <span class={styles['text57']}> </span>
+              <br class={styles['text58']}></br>
+              <br class={styles['text59']}></br>
+              <br class={styles['text60']}></br>
               <br></br>
-              <br class={styles['text52']}></br>
+              <br class={styles['text62']}></br>
               <br></br>
             </span>
           </div>
@@ -247,16 +261,16 @@ const Introduction = (props) => {
         <div class={styles['line2']}></div>
       </div>
       <div id="contact" class={styles['contact']}>
-        <div class={styles['text54']}>
-          <h1 class={styles['text55']}>
-            <span class={styles['text56']}>
+        <div class={styles['text64']}>
+          <h1 class={styles['text65']}>
+            <span class={styles['text66']}>
               Do not hesitate to contact me through the form here
             </span>
-            <br class={styles['text57']}></br>
-            <span class={styles['text58']}> or by direct email</span>
-            <br class={styles['text59']}></br>
-            <span class={styles['text60']}> on</span>
-            <span class={styles['text61']}>
+            <br class={styles['text67']}></br>
+            <span class={styles['text68']}> or by direct email</span>
+            <br class={styles['text69']}></br>
+            <span class={styles['text70']}> on</span>
+            <span class={styles['text71']}>
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -269,20 +283,20 @@ const Introduction = (props) => {
             >
               amar@amaralicic.com
             </a>
-            <span class={styles['text62']}>
+            <span class={styles['text72']}>
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <span class={styles['text63']}>regardless of the subject.</span>
+            <span class={styles['text73']}>regardless of the subject.</span>
           </h1>
         </div>
         <div class={styles['form']}>
-          <label class={styles['text64']}>
+          <label class={styles['text74']}>
             <span>Full Name</span>
-            <span class={styles['text66']}>*</span>
+            <span class={styles['text76']}>*</span>
           </label>
           <input
             type="text"
@@ -292,9 +306,9 @@ const Introduction = (props) => {
             autoComplete="name"
             class={` ${styles['textinput']} ${projectStyles['input']} `}
           />
-          <label class={styles['text67']}>
+          <label class={styles['text77']}>
             <span>Email Address</span>
-            <span class={styles['text69']}>*</span>
+            <span class={styles['text79']}>*</span>
           </label>
           <input
             type="email"
@@ -306,9 +320,9 @@ const Introduction = (props) => {
             autoComplete="name"
             class={` ${styles['textinput1']} ${projectStyles['input']} `}
           />
-          <label class={styles['text70']}>
+          <label class={styles['text80']}>
             <span>Leave a Message</span>
-            <span class={styles['text72']}>*</span>
+            <span class={styles['text82']}>*</span>
           </label>
           <textarea
             cols="50"
@@ -322,13 +336,13 @@ const Introduction = (props) => {
               id="submit"
               class={` ${projectStyles['button']} ${projectStyles['submit']} `}
             >
-              <span class={styles['text74']}>Send it</span>
+              <span class={styles['text84']}>Send it</span>
               <br></br>
             </span>
             <img
               alt="image"
               src="/assets/playground_assets/arrow.svg"
-              class={styles['image10']}
+              class={styles['image12']}
             />
           </div>
         </div>
@@ -350,7 +364,7 @@ const Introduction = (props) => {
         >
           Instagram
         </a>
-        <span class={styles['text76']}>© Amar Aličić</span>
+        <span class={styles['text86']}>© Amar Aličić</span>
       </div>
     </div>
   )
