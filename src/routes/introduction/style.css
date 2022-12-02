@@ -226,12 +226,6 @@
 }
 .image05 {
   width: auto;
-  height: auto;
-  object-fit: cover;
-  margin-right: var(--dl-space-space-unit);
-}
-.image06 {
-  width: auto;
   height: 636px;
   object-fit: cover;
 }
@@ -266,7 +260,7 @@
 .text18 {
   font-family: Epilogue;
 }
-.image07 {
+.image06 {
   width: auto;
   height: 32px;
   margin-top: var(--dl-space-space-halfunit);
@@ -275,7 +269,7 @@
   margin-left: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.image07:hover {
+.image06:hover {
   transform: scale(1.1);
 }
 .projects-divider {
@@ -360,14 +354,14 @@
 .link05 {
   display: contents;
 }
-.image08 {
+.image07 {
   width: 100%;
   object-fit: cover;
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   text-decoration: none;
 }
-.image08:hover {
+.image07:hover {
   transform: scale(1.1);
 }
 .link06 {
@@ -405,14 +399,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.image09 {
+.image08 {
   width: 100%;
   height: auto;
   object-fit: cover;
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.image09:hover {
+.image08:hover {
   transform: scale(1.1);
 }
 .text28 {
@@ -441,14 +435,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.image10 {
+.image09 {
   width: 100%;
   height: auto;
   object-fit: cover;
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.image10:hover {
+.image09:hover {
   transform: scale(1.1);
 }
 .text32 {
@@ -514,7 +508,7 @@
   height: auto;
   display: flex;
 }
-.image11 {
+.image10 {
   width: auto;
   height: 441px;
   margin-top: var(--dl-space-space-oneandhalfunits);
@@ -811,14 +805,14 @@
 .text84 {
   font-family: Epilogue;
 }
-.image12 {
+.image11 {
   width: auto;
   height: 32px;
   object-fit: cover;
   transition: 0.3s;
   margin-left: var(--dl-space-space-halfunit);
 }
-.image12:hover {
+.image11:hover {
   transform: scale(1.1);
 }
 .footer {
@@ -895,7 +889,7 @@
   .hero {
     flex-direction: column;
   }
-  .image06 {
+  .image05 {
     height: auto;
   }
   .line {
@@ -913,7 +907,7 @@
   .project2 {
     width: 20%;
   }
-  .image10 {
+  .image09 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
   .text32 {
@@ -925,7 +919,7 @@
   .line1 {
     width: 60%;
   }
-  .image11 {
+  .image10 {
     height: 100%;
   }
   .text40 {
@@ -1024,7 +1018,7 @@
   .text16 {
     align-self: center;
   }
-  .image06 {
+  .image05 {
     margin-right: 0px;
   }
   .explore-my-projects {
@@ -1063,7 +1057,7 @@
   .text38 {
     margin-left: var(--dl-space-space-threeunits);
   }
-  .image11 {
+  .image10 {
     margin-top: 0px;
     margin-left: var(--dl-space-space-threeunits);
   }
@@ -1177,7 +1171,7 @@
   .tools-i-use {
     margin-left: var(--dl-space-space-threeunits);
   }
-  .image06 {
+  .image05 {
     margin-right: 0px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -1210,7 +1204,7 @@
     width: 80%;
     margin-right: 0px;
   }
-  .image08 {
+  .image07 {
     width: 100%;
     height: auto;
     margin-top: var(--dl-space-space-oneandhalfunits);
@@ -1223,7 +1217,7 @@
     width: 80%;
     margin-right: 0px;
   }
-  .image09 {
+  .image08 {
     width: 100%;
     margin-top: var(--dl-space-space-oneandhalfunits);
   }
@@ -1231,7 +1225,7 @@
     width: 80%;
     margin-right: 0px;
   }
-  .image10 {
+  .image09 {
     width: 100%;
     margin-top: var(--dl-space-space-oneandhalfunits);
   }
@@ -1247,7 +1241,7 @@
   .container5 {
     flex-direction: column;
   }
-  .image11 {
+  .image10 {
     width: auto;
     height: auto;
     margin-top: 0px;
@@ -1341,7 +1335,7 @@
   .tools {
     margin-left: 0px;
   }
-  .image06 {
+  .image05 {
     width: 100%;
     height: auto;
     margin-right: 0px;
@@ -1353,14 +1347,14 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .image07 {
+  .image06 {
     margin-left: 0px;
   }
   .text21 {
     margin-left: 0px;
     padding-right: var(--dl-space-space-threeunits);
   }
-  .image11 {
+  .image10 {
     width: auto;
   }
   .text40 {

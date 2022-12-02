@@ -85,11 +85,6 @@ const Introduction = (props) => {
                     src="/assets/playground_assets/icons8-adobe-photoshop.svg"
                     class={styles['image04']}
                   />
-                  <img
-                    alt="image"
-                    src="/assets/playground_assets/icons8-adobe-photoshop.svg"
-                    class={styles['image05']}
-                  />
                 </div>
               </div>
             </div>
@@ -98,7 +93,7 @@ const Introduction = (props) => {
         <img
           alt="image"
           src="/assets/playground_assets/hero-base-dark-1500w.png"
-          class={styles['image06']}
+          class={styles['image05']}
         />
       </div>
       <a href="#projects" class={styles['link04']}>
@@ -110,7 +105,7 @@ const Introduction = (props) => {
           <img
             alt="image"
             src="/assets/playground_assets/arrow.svg"
-            class={styles['image07']}
+            class={styles['image06']}
           />
         </div>
       </a>
@@ -141,7 +136,7 @@ const Introduction = (props) => {
               <img
                 alt="image"
                 src="/assets/playground_assets/thumbnail.svg"
-                class={styles['image08']}
+                class={styles['image07']}
               />
             </a>
             <a
@@ -165,7 +160,7 @@ const Introduction = (props) => {
             <img
               alt="image"
               src="/assets/playground_assets/crushyframe.svg"
-              class={styles['image09']}
+              class={styles['image08']}
             />
             <h1 class={styles['text28']}>
               <span>Dating Application</span>
@@ -177,7 +172,7 @@ const Introduction = (props) => {
             <img
               alt="image"
               src="/assets/playground_assets/newcc-1200w.png"
-              class={styles['image10']}
+              class={styles['image09']}
             />
             <h1 class={styles['text32']}>
               <span>E-Commerce Company</span>
@@ -199,7 +194,7 @@ const Introduction = (props) => {
           <img
             alt="image"
             src="/assets/playground_assets/microsoftteams-image2-500h.png"
-            class={styles['image11']}
+            class={styles['image10']}
           />
           <div class={styles['text39']}>
             <h1 class={styles['text40']}>WHO AM I</h1>
@@ -342,7 +337,7 @@ const Introduction = (props) => {
             <img
               alt="image"
               src="/assets/playground_assets/arrow.svg"
-              class={styles['image12']}
+              class={styles['image11']}
             />
           </div>
         </div>
