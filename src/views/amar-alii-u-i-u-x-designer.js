@@ -185,7 +185,7 @@ const AmarAliiUIUXDesigner = (props) => {
           </div>
           <div className="amar-alii-u-i-u-x-designer-project2">
             <Link
-              to="/amar-alii-commerce-care"
+              to="/commerce-care-website"
               className="amar-alii-u-i-u-x-designer-navlink"
             >
               <img
@@ -195,7 +195,7 @@ const AmarAliiUIUXDesigner = (props) => {
               />
             </Link>
             <Link
-              to="/amar-alii-commerce-care"
+              to="/commerce-care-website"
               className="amar-alii-u-i-u-x-designer-navlink1"
             >
               <h1 className="amar-alii-u-i-u-x-designer-text32">
@@ -204,7 +204,7 @@ const AmarAliiUIUXDesigner = (props) => {
               </h1>
             </Link>
             <Link
-              to="/amar-alii-commerce-care"
+              to="/commerce-care-website"
               className="amar-alii-u-i-u-x-designer-navlink2"
             >
               <h1 className="amar-alii-u-i-u-x-designer-text35">

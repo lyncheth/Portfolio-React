@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
 import AmarAliiUIUXDesigner from './views/amar-alii-u-i-u-x-designer'
-import AmarAliiCommerceCare from './views/amar-alii-commerce-care'
+import CommerceCareWebsite from './views/commerce-care-website'
 
 const App = () => {
   return (
@@ -12,9 +12,9 @@ const App = () => {
       <div>
         <Route component={AmarAliiUIUXDesigner} exact path="/" />
         <Route
-          component={AmarAliiCommerceCare}
+          component={CommerceCareWebsite}
           exact
-          path="/amar-alii-commerce-care"
+          path="/commerce-care-website"
         />
       </div>
     </Router>
