@@ -1,19 +1,19 @@
-import { h } from 'preact'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './gallery-card11.css'
+import './gallery-card11.css'
 
 const GalleryCard11 = (props) => {
   return (
-    <div class={` ${styles['gallery-card']} ${styles[props.rootClassName]} `}>
+    <div className={`gallery-card11-gallery-card ${props.rootClassName} `}>
       <img
         alt={props.image_alt}
         src={props.image_src}
-        class={styles['image']}
+        className="gallery-card11-image"
       />
-      <h2 class={styles['text']}>{props.title}</h2>
-      <span class={styles['text1']}>{props.subtitle}</span>
+      <h2 className="gallery-card11-text">{props.title}</h2>
+      <span className="gallery-card11-text1">{props.subtitle}</span>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-.gallery-card {
+.gallery-card21-gallery-card {
   width: 100%;
   height: 100%;
   display: flex;
@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.container {
+.gallery-card21-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -19,10 +19,10 @@
   justify-content: center;
   background-color: #00000096;
 }
-.container:hover {
+.gallery-card21-container:hover {
   opacity: 1;
 }
-.container1 {
+.gallery-card21-container1 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -31,25 +31,25 @@
   flex-direction: column;
   justify-content: center;
 }
-.text {
+.gallery-card21-text {
   color: var(--dl-color-gray-white);
   font-style: normal;
   text-align: center;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.text1 {
+.gallery-card21-text1 {
   color: var(--dl-color-gray-white);
   text-align: center;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.text2 {
+.gallery-card21-text2 {
   color: var(--dl-color-gray-white);
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
 }
-.image {
+.gallery-card21-image {
   top: 0px;
   left: auto;
   right: 0px;
@@ -59,26 +59,26 @@
   position: absolute;
   object-fit: cover;
 }
-.root-class-name {
+.gallery-card21-root-class-name {
   flex: 1;
 }
 
 
-.root-class-name4 {
+.gallery-card21-root-class-name4 {
   flex: 1;
   height: 100%;
 }
 
 @media(max-width: 767px) {
-  .gallery-card {
+  .gallery-card21-gallery-card {
     flex-direction: column;
   }
 }
 @media(max-width: 479px) {
-  .container {
+  .gallery-card21-container {
     max-width: auto;
   }
-  .image {
+  .gallery-card21-image {
     top: 0px;
     left: 0px;
     right: auto;

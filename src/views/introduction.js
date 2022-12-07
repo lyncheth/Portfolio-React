@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -44,41 +45,48 @@ const Introduction = (props) => {
         </div>
       </header>
       <div id="introduction" className="introduction-hero">
-        <div className="introduction-container01">
-          <div className="introduction-container02">
-            <div className="introduction-container03">
-              <div className="introduction-container04">
-                <div className="introduction-container05">
-                  <div className="introduction-container06">
-                    <div className="introduction-container07">
-                      <div className="introduction-container08">
-                        <div className="introduction-container09">
-                          <div className="introduction-container10">
-                            <h1 className="introduction-text07">
-                              Hi There! 👋🏻
-                            </h1>
-                            <h1 className="introduction-text08">
-                              <span className="introduction-text09">
-                                I create and design mobile
-                              </span>
-                              <br className="introduction-text10"></br>
-                              <span className="introduction-text11">
-                                applications.
-                              </span>
-                              <br></br>
-                            </h1>
-                            <span className="introduction-text13">
-                              <span className="introduction-text14">
-                                I&apos;m a UI/UX designer with a passion to
-                                create great new designs and user experiences
-                              </span>
-                              <br></br>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+        <div className="introduction-container1">
+          <div className="introduction-container2">
+            <div className="introduction-container3">
+              <h1 className="introduction-text07">Hi There! 👋🏻</h1>
+              <h1 className="introduction-text08">
+                <span className="introduction-text09">
+                  I create and design mobile
+                </span>
+                <br className="introduction-text10"></br>
+                <span className="introduction-text11">applications.</span>
+                <br></br>
+              </h1>
+              <span className="introduction-text13">
+                <span className="introduction-text14">
+                  I&apos;m a UX/UI designer with a passion to create great new
+                  designs and user experiences.
+                </span>
+                <br></br>
+              </span>
+              <div className="introduction-tools-i-use">
+                <h1 className="introduction-text16">TOOLS I USE</h1>
+                <div className="introduction-tools">
+                  <img
+                    alt="image"
+                    src="/playground_assets/icons8-figma.svg"
+                    className="introduction-image01"
+                  />
+                  <img
+                    alt="image"
+                    src="/playground_assets/icons8-sketch.svg"
+                    className="introduction-image02"
+                  />
+                  <img
+                    alt="image"
+                    src="/playground_assets/icons8-adobe-illustrator%20%5B1%5D.svg"
+                    className="introduction-image03"
+                  />
+                  <img
+                    alt="image"
+                    src="/playground_assets/icons8-adobe-photoshop.svg"
+                    className="introduction-image04"
+                  />
                 </div>
               </div>
             </div>
@@ -87,34 +95,34 @@ const Introduction = (props) => {
         <img
           alt="image"
           src="/playground_assets/hero-base-dark-1500w.png"
-          className="introduction-image01"
+          className="introduction-image05"
         />
       </div>
       <a href="#projects" className="introduction-link04">
         <div className="introduction-explore-my-projects">
-          <span className="introduction-text16">
-            <span className="introduction-text17">Explore my projects</span>
+          <span className="introduction-text17">
+            <span className="introduction-text18">Explore my projects</span>
             <br></br>
           </span>
           <img
             alt="image"
             src="/playground_assets/arrow.svg"
-            className="introduction-image02"
+            className="introduction-image06"
           />
         </div>
       </a>
       <div className="introduction-projects-divider">
-        <h1 className="introduction-text19">PROJECTS</h1>
+        <h1 className="introduction-text20">PROJECTS</h1>
         <div className="introduction-line"></div>
       </div>
-      <div className="introduction-container11">
-        <span className="introduction-text20">
+      <div className="introduction-container4">
+        <span className="introduction-text21">
           <span>
             Check out some of my designs that I have done or am working right
             now. Please note that some 
           </span>
           <br></br>
-          <span>of the designs are under work.</span>
+          <span>of the designs are work in progress.</span>
           <br></br>
         </span>
       </div>
@@ -130,7 +138,7 @@ const Introduction = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/thumbnail.svg"
-                className="introduction-image03"
+                className="introduction-image07"
               />
             </a>
             <a
@@ -139,7 +147,7 @@ const Introduction = (props) => {
               rel="noreferrer noopener"
               className="introduction-link06"
             >
-              <h1 className="introduction-text25">Real Estate Application</h1>
+              <h1 className="introduction-text26">Real Estate Application</h1>
             </a>
             <a
               href="https://www.figma.com/community/file/1144574049134194464"
@@ -147,41 +155,65 @@ const Introduction = (props) => {
               rel="noreferrer noopener"
               className="introduction-link07"
             >
-              <h1 className="introduction-text26">Glive</h1>
+              <h1 className="introduction-text27">Glive</h1>
             </a>
           </div>
           <div className="introduction-project1">
             <img
               alt="image"
-              src="/playground_assets/untitled-1-1200w.png"
-              className="introduction-image04"
+              src="/playground_assets/crushyframe.svg"
+              className="introduction-image08"
             />
-            <h1 className="introduction-text27">Workout Application</h1>
-            <h1 className="introduction-text28">Praction</h1>
+            <h1 className="introduction-text28">
+              <span>Dating Application</span>
+              <br></br>
+            </h1>
+            <h1 className="introduction-text31">Crushy</h1>
+          </div>
+          <div className="introduction-project2">
+            <Link to="/commercecare" className="introduction-navlink">
+              <img
+                alt="image"
+                src="/playground_assets/newcc-1200w.png"
+                className="introduction-image09"
+              />
+            </Link>
+            <Link to="/commercecare" className="introduction-navlink1">
+              <h1 className="introduction-text32">
+                <span>E-Commerce Company</span>
+                <br></br>
+              </h1>
+            </Link>
+            <Link to="/commercecare" className="introduction-navlink2">
+              <h1 className="introduction-text35">
+                <span>Commerce Care</span>
+                <br></br>
+              </h1>
+            </Link>
           </div>
         </div>
       </div>
       <div className="introduction-about-divider">
-        <h1 className="introduction-text29">ABOUT</h1>
+        <h1 className="introduction-text38">ABOUT</h1>
         <div className="introduction-line1"></div>
       </div>
       <div className="introduction-about-me">
-        <div id="about" className="introduction-container12">
+        <div id="about" className="introduction-container5">
           <img
             alt="image"
-            src="/playground_assets/avatar-800w.png"
-            className="introduction-image05"
+            src="/playground_assets/microsoftteams-image2-500h.png"
+            className="introduction-image10"
           />
-          <div className="introduction-text30">
-            <h1 className="introduction-text31">WHO AM I</h1>
-            <span className="introduction-text32">
+          <div className="introduction-text39">
+            <h1 className="introduction-text40">WHO AM I</h1>
+            <span className="introduction-text41">
               <span>
-                My name is Amar Aličič. I am 26 years old, I live in Zenica,
+                My name is Amar Aličić. I am 26 years old, I live in Zenica,
                 Bosnia and Herzegovina, and I am 
               </span>
               <span>self-taught Graphics and UI/UX Designer.</span>
-              <br className="introduction-text35"></br>
-              <br className="introduction-text36"></br>
+              <br className="introduction-text44"></br>
+              <br className="introduction-text45"></br>
               <span>
                 I have multiple years of experience working with many designing
                 and 3D modeling tools. 
@@ -189,75 +221,59 @@ const Introduction = (props) => {
               <br></br>
               <br></br>
               <span>
-                My current focus is on UI/UX Design and I am working as an
-                Intern at Commercecare.ai where I am mainly working on creating
-                marketing graphics. I also work on one of their products called
-                Rokpay.ba
+                Currently I work as a freelance UX/UI Designer on Upwork but in
+                past I worked at Commercecare.ai and Rokpay.ba
               </span>
-              <br className="introduction-text41"></br>
-              <br className="introduction-text42"></br>
+              <span className="introduction-text50">
+                . I am
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span>
+                specialized in creating mobile application designs but I have
+                decent skill in web design as well.
+              </span>
+              <br className="introduction-text52"></br>
+              <br className="introduction-text53"></br>
               <span>
                 UI/UX Design started for me as a hobby and it turned to passion.
                 Now I am working on perfecting those skills, and learning more
-                each day in my internship .
+                each day .
               </span>
               <br></br>
               <span>
                 Also I have a decent skill of understanding of HTML, CSS, and
                 JavaScipt.
               </span>
-              <span className="introduction-text46"> </span>
-              <br className="introduction-text47"></br>
-              <br className="introduction-text48"></br>
-              <br className="introduction-text49"></br>
+              <span className="introduction-text57"> </span>
+              <br className="introduction-text58"></br>
+              <br className="introduction-text59"></br>
+              <br className="introduction-text60"></br>
               <br></br>
-              <br className="introduction-text51"></br>
+              <br className="introduction-text62"></br>
               <br></br>
             </span>
           </div>
         </div>
-      </div>
-      <div className="introduction-tools-i-use">
-        <h1 className="introduction-text53">TOOLS I USE</h1>
-        <div className="introduction-tools">
-          <img
-            alt="image"
-            src="/playground_assets/icons8-figma.svg"
-            className="introduction-image06"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/icons8-sketch.svg"
-            className="introduction-image07"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/icons8-adobe-illustrator%20%5B1%5D.svg"
-            className="introduction-image08"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/icons8-adobe-photoshop.svg"
-            className="introduction-image09"
-          />
-        </div>
-        <div className="introduction-container13"></div>
       </div>
       <div className="introduction-contact-divider">
         <h1 className="introduction-heading">CONTACT</h1>
         <div className="introduction-line2"></div>
       </div>
       <div id="contact" className="introduction-contact">
-        <div className="introduction-text54">
-          <h1 className="introduction-text55">
-            <span className="introduction-text56">
+        <div className="introduction-text64">
+          <h1 className="introduction-text65">
+            <span className="introduction-text66">
               Do not hesitate to contact me through the form here
             </span>
-            <br className="introduction-text57"></br>
-            <span className="introduction-text58"> or by direct email</span>
-            <br className="introduction-text59"></br>
-            <span className="introduction-text60"> on</span>
-            <span className="introduction-text61">
+            <br className="introduction-text67"></br>
+            <span className="introduction-text68"> or by direct email</span>
+            <br className="introduction-text69"></br>
+            <span className="introduction-text70"> on</span>
+            <span className="introduction-text71">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -270,22 +286,22 @@ const Introduction = (props) => {
             >
               amar@amaralicic.com
             </a>
-            <span className="introduction-text62">
+            <span className="introduction-text72">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <span className="introduction-text63">
+            <span className="introduction-text73">
               regardless of the subject.
             </span>
           </h1>
         </div>
         <div className="introduction-form">
-          <label className="introduction-text64">
+          <label className="introduction-text74">
             <span>Full Name</span>
-            <span className="introduction-text66">*</span>
+            <span className="introduction-text76">*</span>
           </label>
           <input
             type="text"
@@ -295,9 +311,9 @@ const Introduction = (props) => {
             autoComplete="name"
             className="introduction-textinput input"
           />
-          <label className="introduction-text67">
+          <label className="introduction-text77">
             <span>Email Address</span>
-            <span className="introduction-text69">*</span>
+            <span className="introduction-text79">*</span>
           </label>
           <input
             type="email"
@@ -309,9 +325,9 @@ const Introduction = (props) => {
             autoComplete="name"
             className="introduction-textinput1 input"
           />
-          <label className="introduction-text70">
+          <label className="introduction-text80">
             <span>Leave a Message</span>
-            <span className="introduction-text72">*</span>
+            <span className="introduction-text82">*</span>
           </label>
           <textarea
             cols="50"
@@ -321,14 +337,14 @@ const Introduction = (props) => {
             className="introduction-textarea textarea"
           ></textarea>
           <div className="introduction-explore-my-projects1">
-            <span id="submit" className="submit button">
-              <span className="introduction-text74">Send it</span>
+            <span id="submit" className="button submit">
+              <span className="introduction-text84">Send it</span>
               <br></br>
             </span>
             <img
               alt="image"
               src="/playground_assets/arrow.svg"
-              className="introduction-image10"
+              className="introduction-image11"
             />
           </div>
         </div>
@@ -350,7 +366,7 @@ const Introduction = (props) => {
         >
           Instagram
         </a>
-        <span className="introduction-text76">© Amar Aličić</span>
+        <span className="introduction-text86">© Amar Aličić</span>
       </div>
     </div>
   )

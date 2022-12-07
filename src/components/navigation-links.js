@@ -1,17 +1,17 @@
-import { h } from 'preact'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './navigation-links.css'
+import './navigation-links.css'
 
 const NavigationLinks = (props) => {
   return (
-    <nav class={` ${styles['nav']} ${styles[props.rootClassName]} `}>
-      <span class={styles['text']}>{props.text}</span>
-      <span class={styles['text1']}>{props.text1}</span>
-      <span class={styles['text2']}>{props.text2}</span>
-      <span class={styles['text3']}>{props.text3}</span>
-      <span class={styles['text4']}>{props.text4}</span>
+    <nav className={`navigation-links-nav ${props.rootClassName} `}>
+      <span className="navigation-links-text">{props.text}</span>
+      <span className="navigation-links-text1">{props.text1}</span>
+      <span className="navigation-links-text2">{props.text2}</span>
+      <span className="navigation-links-text3">{props.text3}</span>
+      <span className="navigation-links-text4">{props.text4}</span>
     </nav>
   )
 }
