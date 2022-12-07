@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -29,18 +30,18 @@ const Commercecare = (props) => {
           className="commercecare-image"
         />
         <div className="commercecare-text">
-          <a href="#introduction" className="commercecare-link">
+          <Link to="/" className="commercecare-navlink">
             Introduction
-          </a>
-          <a href="#projects" className="commercecare-link1">
+          </Link>
+          <a href="#projects" className="commercecare-link">
             <span>Projects</span>
             <br></br>
           </a>
-          <a href="#about" className="commercecare-link2">
+          <a href="#about" className="commercecare-link1">
             <span>About</span>
             <br></br>
           </a>
-          <a href="#contact" className="commercecare-link3">
+          <a href="#contact" className="commercecare-link2">
             <span>Contact</span>
             <br></br>
           </a>
@@ -54,11 +55,6 @@ const Commercecare = (props) => {
           </h1>
         </div>
       </div>
-      <img
-        src="/playground_assets/newcc-1100w.png"
-        alt="image"
-        className="commercecare-image1"
-      />
     </div>
   )
 }

@@ -31,10 +31,29 @@
   flex-direction: row;
   justify-content: center;
 }
-.commercecare-link {
+.commercecare-navlink {
   color: rgb(153, 153, 153);
   font-size: 16px;
   align-self: center;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Epilogue;
+  font-weight: 300;
+  margin-right: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.commercecare-navlink:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.commercecare-link {
+  color: rgb(153, 153, 153);
+  font-size: 16px;
   font-style: normal;
   transition: 0.3s;
   font-family: Epilogue;
@@ -77,29 +96,10 @@
   transition: 0.3s;
   font-family: Epilogue;
   font-weight: 300;
-  margin-right: var(--dl-space-space-fourunits);
-  text-decoration: none;
-}
-.commercecare-link2:hover {
-  color: #ffffff;
-  border-color: #ffffff;
-  border-width: 1px;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 1px;
-}
-.commercecare-link3 {
-  color: rgb(153, 153, 153);
-  font-size: 16px;
-  font-style: normal;
-  transition: 0.3s;
-  font-family: Epilogue;
-  font-weight: 300;
   margin-right: 0px;
   text-decoration: none;
 }
-.commercecare-link3:hover {
+.commercecare-link2:hover {
   color: #ffffff;
   border-color: #ffffff;
   border-width: 1px;
@@ -130,14 +130,6 @@
   margin-top: var(--dl-space-space-fourunits);
   font-family: Epilogue;
   font-weight: 500;
-}
-.commercecare-image1 {
-  width: 100px;
-  object-fit: cover;
-  transition: 0.3s;
-}
-.commercecare-image1:focus {
-  width: 70%;
 }
 @media(max-width: 1200px) {
   .commercecare-header {
@@ -178,6 +170,10 @@
     display: none;
     flex-direction: column;
   }
+  .commercecare-navlink {
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
   .commercecare-link {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
@@ -187,10 +183,6 @@
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .commercecare-link2 {
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .commercecare-link3 {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
