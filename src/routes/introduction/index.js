@@ -1,4 +1,5 @@
 import { h } from 'preact'
+import { Link } from 'preact-router/match'
 
 import { Helmet } from 'react-helmet'
 
@@ -169,19 +170,25 @@ const Introduction = (props) => {
             <h1 class={styles['text31']}>Crushy</h1>
           </div>
           <div class={styles['project2']}>
-            <img
-              alt="image"
-              src="/assets/playground_assets/newcc-1200w.png"
-              class={styles['image09']}
-            />
-            <h1 class={styles['text32']}>
-              <span>E-Commerce Company</span>
-              <br></br>
-            </h1>
-            <h1 class={styles['text35']}>
-              <span>Commerce Care</span>
-              <br></br>
-            </h1>
+            <Link href="/commercecare" class={styles['navlink']}>
+              <img
+                alt="image"
+                src="/assets/playground_assets/newcc-1200w.png"
+                class={styles['image09']}
+              />
+            </Link>
+            <Link href="/commercecare" class={styles['navlink1']}>
+              <h1 class={styles['text32']}>
+                <span>E-Commerce Company</span>
+                <br></br>
+              </h1>
+            </Link>
+            <Link href="/commercecare" class={styles['navlink2']}>
+              <h1 class={styles['text35']}>
+                <span>Commerce Care</span>
+                <br></br>
+              </h1>
+            </Link>
           </div>
         </div>
       </div>
@@ -200,7 +207,7 @@ const Introduction = (props) => {
             <h1 class={styles['text40']}>WHO AM I</h1>
             <span class={styles['text41']}>
               <span>
-                My name is Amar Aličič. I am 26 years old, I live in Zenica,
+                My name is Amar Aličić. I am 26 years old, I live in Zenica,
                 Bosnia and Herzegovina, and I am 
               </span>
               <span>self-taught Graphics and UI/UX Designer.</span>

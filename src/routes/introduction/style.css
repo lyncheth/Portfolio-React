@@ -435,15 +435,22 @@
   flex-direction: column;
   justify-content: center;
 }
+.navlink {
+  display: contents;
+}
 .image09 {
   width: 100%;
   height: auto;
   object-fit: cover;
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
 }
 .image09:hover {
   transform: scale(1.1);
+}
+.navlink1 {
+  display: contents;
 }
 .text32 {
   color: rgb(96, 97, 96);
@@ -454,6 +461,10 @@
   font-family: Epilogue;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.navlink2 {
+  display: contents;
 }
 .text35 {
   color: var(--dl-color-gray-700);
@@ -461,6 +472,7 @@
   font-style: normal;
   font-family: Epilogue;
   font-weight: 500;
+  text-decoration: none;
 }
 .about-divider {
   flex: 1;
