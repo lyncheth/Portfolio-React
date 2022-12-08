@@ -21,11 +21,16 @@ const AmarAliiUIUXDesigner = (props) => {
         />
       </Helmet>
       <header data-role="Header" className="amar-alii-u-i-u-x-designer-header">
-        <img
-          alt="logo"
-          src="/playground_assets/logo_white.svg"
-          className="amar-alii-u-i-u-x-designer-image"
-        />
+        <Link
+          to="/commerce-care"
+          className="amar-alii-u-i-u-x-designer-navlink"
+        >
+          <img
+            alt="logo"
+            src="/playground_assets/logo_white.svg"
+            className="amar-alii-u-i-u-x-designer-image"
+          />
+        </Link>
         <div className="amar-alii-u-i-u-x-designer-text">
           <a href="#introduction" className="amar-alii-u-i-u-x-designer-link">
             Introduction
@@ -185,8 +190,8 @@ const AmarAliiUIUXDesigner = (props) => {
           </div>
           <div className="amar-alii-u-i-u-x-designer-project2">
             <Link
-              to="/commerce-care-website"
-              className="amar-alii-u-i-u-x-designer-navlink"
+              to="/commerce-care"
+              className="amar-alii-u-i-u-x-designer-navlink1"
             >
               <img
                 alt="image"
@@ -195,8 +200,8 @@ const AmarAliiUIUXDesigner = (props) => {
               />
             </Link>
             <Link
-              to="/commerce-care-website"
-              className="amar-alii-u-i-u-x-designer-navlink1"
+              to="/commerce-care"
+              className="amar-alii-u-i-u-x-designer-navlink2"
             >
               <h1 className="amar-alii-u-i-u-x-designer-text32">
                 <span>E-Commerce Company</span>
@@ -204,8 +209,8 @@ const AmarAliiUIUXDesigner = (props) => {
               </h1>
             </Link>
             <Link
-              to="/commerce-care-website"
-              className="amar-alii-u-i-u-x-designer-navlink2"
+              to="/commerce-care"
+              className="amar-alii-u-i-u-x-designer-navlink3"
             >
               <h1 className="amar-alii-u-i-u-x-designer-text35">
                 <span>Commerce Care</span>
