@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       <div>
         <Route component={AmarAliiUIUXDesigner} exact path="/" />
-        <Route component={CommerceCare} exact path="/commerce-care" />
+        <Route component={CommerceCare} exact path="/commercecare" />
       </div>
     </Router>
   )

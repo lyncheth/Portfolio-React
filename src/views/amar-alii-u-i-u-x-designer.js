@@ -9,22 +9,19 @@ const AmarAliiUIUXDesigner = (props) => {
   return (
     <div id="intro" className="amar-alii-u-i-u-x-designer-container">
       <Helmet>
-        <title>Amar Aličič - UI/UX Designer</title>
+        <title>Amar Aličić - UI/UX Designer</title>
         <meta
           name="description"
           content="I am Amar Aličič a UI/UX Designer from Bosnia and Herzegovina and I am looking to improve my skills each day. Looking foward to work in IT Industry. "
         />
-        <meta property="og:title" content="Amar Aličič - UI/UX Designer" />
+        <meta property="og:title" content="Amar Aličić - UI/UX Designer" />
         <meta
           property="og:description"
           content="I am Amar Aličič a UI/UX Designer from Bosnia and Herzegovina and I am looking to improve my skills each day. Looking foward to work in IT Industry. "
         />
       </Helmet>
       <header data-role="Header" className="amar-alii-u-i-u-x-designer-header">
-        <Link
-          to="/commerce-care"
-          className="amar-alii-u-i-u-x-designer-navlink"
-        >
+        <Link to="/commercecare" className="amar-alii-u-i-u-x-designer-navlink">
           <img
             alt="logo"
             src="/playground_assets/logo_white.svg"
@@ -190,7 +187,7 @@ const AmarAliiUIUXDesigner = (props) => {
           </div>
           <div className="amar-alii-u-i-u-x-designer-project2">
             <Link
-              to="/commerce-care"
+              to="/commercecare"
               className="amar-alii-u-i-u-x-designer-navlink1"
             >
               <img
@@ -200,7 +197,7 @@ const AmarAliiUIUXDesigner = (props) => {
               />
             </Link>
             <Link
-              to="/commerce-care"
+              to="/commercecare"
               className="amar-alii-u-i-u-x-designer-navlink2"
             >
               <h1 className="amar-alii-u-i-u-x-designer-text32">
@@ -209,7 +206,7 @@ const AmarAliiUIUXDesigner = (props) => {
               </h1>
             </Link>
             <Link
-              to="/commerce-care"
+              to="/commercecare"
               className="amar-alii-u-i-u-x-designer-navlink3"
             >
               <h1 className="amar-alii-u-i-u-x-designer-text35">
